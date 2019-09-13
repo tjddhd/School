@@ -1,0 +1,289 @@
+A51 MACRO ASSEMBLER  PROJECT1                                                             03/12/2012 17:35:13 PAGE     1
+
+
+MACRO ASSEMBLER A51 V8.01
+OBJECT MODULE PLACED IN project1.OBJ
+ASSEMBLER INVOKED BY: C:\Keil8051\C51\BIN\A51.EXE project1.a51 SET(SMALL) DEBUG EP
+
+LOC  OBJ            LINE     SOURCE
+
+----                   1     cseg at 0x00
+0000 75A400            2             mov 0xA4, #0
+0003 759100            3             mov 0x91, #0
+0006 758400            4             mov 0x84, #0
+0009 7A00              5             mov R2, #0
+000B D2A0              6             setb p2.0
+000D D281              7             setb p0.1
+000F D294              8             setb p1.4
+0011 D283              9             setb p0.3
+0013 C2A4             10             clr p2.4
+0015 C285             11             clr p0.5
+0017 C284             12             clr p0.4
+0019 C2A5             13             clr p2.5
+001B C287             14             clr p0.7
+001D C2A6             15             clr p2.6
+001F C297             16             clr p1.7
+                      17     
+0021                  18     loop:
+                      19              ;add button
+0021 A281             20             mov c, p0.1
+                      21             
+0023 5022             22             jnc Up
+0025 C2A4             23             clr p2.4
+0027 D281             24             setb p0.1 ;add
+                      25             
+0029 A2A0             26             mov c, p2.0
+002B C285             27             clr p0.5
+002D D2A0             28             setb p2.0
+002F 5055             29             jnc Down
+0031 A294             30             mov c, p1.4
+0033 5006             31             jnc     Light
+0035 A283             32             mov c, p0.3
+0037 5008             33             jnc Se
+0039 80E6             34             sjmp loop
+003B                  35     Light:  
+003B 11EA             36             acall Lights
+003D D294             37             setb p1.4
+003F 80E0             38             sjmp loop
+0041                  39     Se:
+0041 3159             40             acall Reset
+0043 D283             41             setb p0.3
+0045 80DA             42             sjmp loop
+                      43     
+                      44     
+0047                  45     Up: 
+0047 D3               46             setb c
+0048 9285             47             mov p0.5,c ;red LED
+004A 11DD             48             acall Delay
+004C EA               49             mov a, r2
+004D B40F1C           50             cjne a, #15, Cont
+0050 74FF             51             mov a, #255
+0052 11C5             52             acall Buzzer
+0054 3401             53             addc a,#01
+0056 C3               54             clr c
+0057 A2E3             55             mov c, acc.3
+0059 9284             56             mov p0.4, c
+005B A2E2             57             mov c, acc.2
+005D 92A5             58             mov p2.5, c
+A51 MACRO ASSEMBLER  PROJECT1                                                             03/12/2012 17:35:13 PAGE     2
+
+005F A2E1             59             mov c, acc.1 
+0061 9287             60             mov p0.7, c
+0063 A2E0             61             mov c, acc.0 
+0065 92A6             62             mov p2.6, c
+0067 FA               63             mov r2, a
+0068 D281             64             setb p0.1
+006A 80B5             65             sjmp loop
+006C                  66     Cont:
+006C EA               67             mov a, r2
+006D C3               68             clr c
+006E 3401             69             addc a,#01
+0070 C3               70             clr c
+0071 A2E3             71             mov c, acc.3
+0073 9284             72             mov p0.4, c
+0075 A2E2             73             mov c, acc.2
+0077 92A5             74             mov p2.5, c
+0079 A2E1             75             mov c, acc.1 
+007B 9287             76             mov p0.7, c
+007D A2E0             77             mov c, acc.0 
+007F 92A6             78             mov p2.6, c
+0081 FA               79             mov r2, a
+0082 D281             80             setb p0.1 ;
+0084 809B             81             sjmp loop
+                      82     
+0086                  83     Down:
+0086 D3               84             setb c
+0087 92A4             85             mov p2.4, c
+                      86               ;yellow
+0089 EA               87             mov a, R2
+008A 11DD             88             acall Delay
+008C 7019             89             jnz Co
+008E 11C5             90             acall Buzzer
+0090                  91     D:
+0090 7A0F             92             mov R2, #15
+0092 EA               93             mov a, r2
+0093 A2E3             94             mov c, acc.3 
+0095 9284             95             mov p0.4, c
+0097 A2E2             96             mov c, acc.2
+0099 92A5             97             mov p2.5, c
+009B A2E1             98             mov c, acc.1 
+009D 9287             99             mov p0.7, c
+009F A2E0            100             mov c, acc.0 
+00A1 92A6            101             mov p2.6, c
+00A3 FA              102             mov r2, a
+                     103     
+00A4 020021          104             ljmp loop
+00A7                 105     Co:
+00A7 C3              106             clr c
+00A8 EA              107             mov a, r2
+00A9 34FF            108             addc a, #255
+00AB A2E3            109             mov c, acc.3 
+00AD 9284            110             mov p0.4, c
+00AF A2E2            111             mov c, acc.2
+00B1 92A5            112             mov p2.5, c
+00B3 A2E1            113             mov c, acc.1 
+00B5 9287            114             mov p0.7, c
+00B7 A2E0            115             mov c, acc.0 
+00B9 92A6            116             mov p2.6, c
+00BB FA              117             mov r2, a
+00BC D281            118             setb p0.1
+00BE 020021          119             ljmp loop       
+                     120     
+                     121     
+00C1                 122     BuzzerD:
+00C1 11C5            123             acall Buzzer
+00C3 80CB            124             sjmp D
+A51 MACRO ASSEMBLER  PROJECT1                                                             03/12/2012 17:35:13 PAGE     3
+
+00C5                 125     Buzzer:
+                     126             ; buzzer crap here 
+00C5 7D32            127             mov r5, #50
+00C7                 128     Back:
+00C7 7F64            129             mov r7, #100
+                     130     
+00C9                 131     Every:
+                     132     
+00C9 C297            133             clr p1.7
+00CB 11D4            134             acall DelayB
+00CD D297            135             setb p1.7
+00CF 11D4            136             acall DelayB
+00D1 DFF6            137             djnz r7, Every
+00D3 22              138             ret
+00D4                 139     DelayB:
+00D4 790F            140             mov r1, #0fh
+00D6                 141     Toy:
+00D6 7B88            142             mov r3, #136
+00D8                 143     Ship:   
+00D8 DBFE            144             djnz r3, Ship
+00DA D9FA            145             djnz r1, Toy
+00DC 22              146             ret
+                     147     
+                     148     
+                     149     
+00DD                 150     Delay: 
+00DD 7D32            151             mov r5, #50
+00DF                 152     Here:
+00DF 7964            153             mov r1, #100
+00E1                 154     There:
+00E1 7B64            155             mov r3, #100
+00E3                 156     Everywhere:
+00E3 DBFE            157             djnz r3, Everywhere
+00E5 D9FA            158             djnz r1, There
+00E7 DDF6            159             djnz r5, Here
+00E9 22              160             ret
+                     161     
+                     162     
+                     163     
+                     164     
+00EA                 165      Lights:
+00EA C2A4            166             clr p2.4
+00EC C285            167             clr p0.5
+00EE C2A7            168             clr p2.7
+00F0 C286            169             clr p0.6
+00F2 C296            170             clr p1.6
+00F4 C284            171             clr p0.4
+00F6 C2A5            172             clr p2.5
+00F8 C287            173             clr p0.7
+00FA C2A6            174             clr p2.6
+00FC D2A4            175             setb p2.4
+00FE 11DD            176             acall Delay
+0100 C2A4            177             clr p2.4
+0102 D285            178             setb p0.5
+0104 11DD            179             acall Delay
+0106 C285            180             clr p0.5
+0108 D2A7            181             setb p2.7
+010A 11DD            182             acall Delay
+010C C2A7            183             clr      p2.7
+010E D286            184             setb p0.6
+0110 11DD            185             acall Delay
+0112 C286            186             clr p0.6
+0114 D296            187             setb p1.6
+0116 11DD            188             acall Delay
+0118 C296            189             clr p1.6
+011A D284            190             setb p0.4
+A51 MACRO ASSEMBLER  PROJECT1                                                             03/12/2012 17:35:13 PAGE     4
+
+011C 11DD            191             acall Delay
+011E C284            192             clr p0.4
+0120 D2A5            193             setb p2.5
+0122 11DD            194             acall Delay
+0124 C2A5            195             clr p2.5
+0126 D287            196             setb p0.7
+0128 11DD            197             acall Delay
+012A C287            198             clr p0.7
+012C D2A6            199             setb p2.6
+012E 11DD            200             acall Delay
+0130 C2A6            201             clr      p2.6
+0132 11DD            202             acall Delay
+0134 D2A4            203             setb p2.4
+0136 D285            204             setb p0.5
+0138 D2A7            205             setb p2.7
+013A D286            206             setb p0.6
+013C D296            207             setb p1.6
+013E D284            208             setb p0.4
+0140 D2A5            209             setb p2.5
+0142 D287            210             setb p0.7
+0144 D2A6            211             setb p2.6
+0146 A2E3            212             mov c, acc.3 
+0148 9284            213             mov p0.4, c
+014A A2E2            214             mov c, acc.2
+014C 92A5            215             mov p2.5, c
+014E A2E1            216             mov c, acc.1 
+0150 9287            217             mov p0.7, c
+0152 A2E0            218             mov c, acc.0 
+0154 92A6            219             mov p2.6, c
+0156 020021          220             ljmp loop
+                     221     
+                     222     
+0159                 223     Reset:
+0159 7400            224             mov a, #0
+015B C3              225             clr c
+015C A2E3            226             mov c, acc.3 
+015E 9284            227             mov p0.4, c
+0160 A2E2            228             mov c, acc.2
+0162 92A5            229             mov p2.5, c
+0164 A2E1            230             mov c, acc.1 
+0166 9287            231             mov p0.7, c
+0168 A2E0            232             mov c, acc.0 
+016A 92A6            233             mov p2.6, c
+016C 22              234             ret
+                     235     end
+A51 MACRO ASSEMBLER  PROJECT1                                                             03/12/2012 17:35:13 PAGE     5
+
+SYMBOL TABLE LISTING
+------ ----- -------
+
+
+N A M E             T Y P E  V A L U E   ATTRIBUTES
+
+ACC. . . . . . . .  D ADDR   00E0H   A   
+BACK . . . . . . .  C ADDR   00C7H   A   
+BUZZER . . . . . .  C ADDR   00C5H   A   
+BUZZERD. . . . . .  C ADDR   00C1H   A   
+CO . . . . . . . .  C ADDR   00A7H   A   
+CONT . . . . . . .  C ADDR   006CH   A   
+D. . . . . . . . .  C ADDR   0090H   A   
+DELAY. . . . . . .  C ADDR   00DDH   A   
+DELAYB . . . . . .  C ADDR   00D4H   A   
+DOWN . . . . . . .  C ADDR   0086H   A   
+EVERY. . . . . . .  C ADDR   00C9H   A   
+EVERYWHERE . . . .  C ADDR   00E3H   A   
+HERE . . . . . . .  C ADDR   00DFH   A   
+LIGHT. . . . . . .  C ADDR   003BH   A   
+LIGHTS . . . . . .  C ADDR   00EAH   A   
+LOOP . . . . . . .  C ADDR   0021H   A   
+P0 . . . . . . . .  D ADDR   0080H   A   
+P1 . . . . . . . .  D ADDR   0090H   A   
+P2 . . . . . . . .  D ADDR   00A0H   A   
+RESET. . . . . . .  C ADDR   0159H   A   
+SE . . . . . . . .  C ADDR   0041H   A   
+SHIP . . . . . . .  C ADDR   00D8H   A   
+THERE. . . . . . .  C ADDR   00E1H   A   
+TOY. . . . . . . .  C ADDR   00D6H   A   
+UP . . . . . . . .  C ADDR   0047H   A   
+
+
+REGISTER BANK(S) USED: 0 
+
+
+ASSEMBLY COMPLETE.  0 WARNING(S), 0 ERROR(S)

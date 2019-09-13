@@ -1,0 +1,19 @@
+|BigPart
+A <= YourPart:YourPart1.OutputA
+CountQ0 => YourPart:YourPart1.D0
+CountQ1 => YourPart:YourPart1.D1
+CountQ2 => YourPart:YourPart1.D2
+B <= YourPart:YourPart1.OutputB
+
+
+|BigPart|YourPart:YourPart1
+OutputB <= AND_B.DB_MAX_OUTPUT_PORT_TYPE
+D0 => NOTD0.IN0
+D0 => AND_A.IN0
+D1 => NOTD1.IN0
+D1 => AND_A.IN1
+D2 => NOTD2.IN0
+D2 => AND_A.IN2
+OutputA <= AND_A.DB_MAX_OUTPUT_PORT_TYPE
+
+

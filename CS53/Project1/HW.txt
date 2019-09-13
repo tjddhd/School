@@ -1,0 +1,29 @@
+//Thomas (TJ) Dolan
+//Mattew Nuckolls
+//Section C, 1pm MWF
+
+//1. First call the 1st alphabetical student, and instruct that student 
+to call the next student and so on until the 5th student is called. They 
+do not need to call anyone. The teacher then calls the 6th student and 
+has them repeat the chaim. Call the 11th, 16th, 21st, 26th, 31st, 36th, 
+41st and 46th students and repeat the chain. This should get the message 
+around quickly and efficiently.
+
+//2a. First get in your vehicle. Drive your vehicle to the frist 
+intersection. If you can make a right, then do so, otherwise continue 
+driving. Directions from there aare as follows: right, straight, right, 
+right straight. Alternatively, if the first intersection was passed then 
+the directions are: right, right, straight, straight, straight and 
+right.
+
+//2b. Take the first intersection and then directions are as follows: 
+if first turn was right, then right, right, straight, left, left and 
+left. If first turn was left, then left, left, straight, right, right 
+and right.
+
+//3a. You can weigh pottos between the ranges of 1-5, 7-12, 14-19, 
+21-26, 28-33 and 35-40. 1-5 is made of 1-5 pound weights, 7-12 of 1-5 
+pound weights and 1 clove weight, 14-19 of 1-5 pound weights and 1 stone 
+weight, 21-26 of 1-5 pound weights and 1 clove wieght and 1 stone 
+weight, 28-33 of 1-5 pound weights and 2 stone weights, 35-40 of 1-5 
+pound weights and 1 clove weight and 2 stone weights.

@@ -1,0 +1,47 @@
+Script started on Tue 26 Feb 2013 11:35:34 PM CST
+sh a	tjddhd@rc06xcs213:~/CS284/Assignment1$ sh assn1.sh 
+WELCOME
+________________________
+select a menu option
+1 - ancestry tree
+2 - who is online
+3 - what process any user is running
+4 - quit
+1
+
+THE ANCESTRY TREE OF THE CURRENT PROCESS IS..
+select a menu option
+1 - ancestry tree
+2 - who is online
+3 - what process any user is running
+4 - quit
+2
+adhfy3
+eahmt9
+eahmt9
+eahmt9
+tjddhd
+select a menu option
+1 - ancestry tree
+2 - who is online
+3 - what process any user is running
+4 - quit
+3
+Please pick a user process you would like to see
+0)adhfy3
+1)eahmt9
+2)eahmt9
+3)eahmt9
+4)tjddhd
+4
+select a menu option
+1 - ancestry tree
+2 - who is online
+3 - what process any user is running
+4 - quit
+4
+Thanks for using the program
+tjddhd@rc06xcs213:~/CS284/Assignment1$ exit
+exit
+
+Script done on Tue 26 Feb 2013 11:36:10 PM CST

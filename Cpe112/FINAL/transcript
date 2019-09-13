@@ -1,0 +1,54 @@
+# Compile of YourPart_inst.v failed with 1 errors.
+# Compile of BigPart_inst.v failed with 1 errors.
+# 2 compiles, 2 failed with 2 errors. 
+# Compile of YourPart_inst.v failed with 1 errors.
+# Compile of BigPart_inst.v failed with 1 errors.
+# 2 compiles, 2 failed with 2 errors. 
+# Compile of YourPart.vhd was successful.
+# Compile of BigPart.vhd was successful.
+# 2 compiles, 0 failed with no errors. 
+vsim -voptargs=+acc work.bigpart
+# vsim -voptargs=+acc work.bigpart 
+# //  ModelSim ALTERA 6.6c Aug 24 2010 
+# //
+# //  Copyright 1991-2010 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading work.bigpart(bdf_type)
+# Loading work.yourpart(bdf_type)
+add wave sim:/bigpart/*
+noforce sim:/bigpart/countq1
+force -freeze sim:/bigpart/countq0 U 0
+force -freeze sim:/bigpart/countq0 1 0, 0 {400 ps} -r 800
+force -freeze sim:/bigpart/countq1 1 0, 0 {400 ps} -r 800
+force -freeze sim:/bigpart/countq2 1 0, 0 {400 ps} -r 800
+run
+force -freeze sim:/bigpart/countq0 1 0
+noforce sim:/bigpart/countq0
+force -freeze sim:/bigpart/countq0 1 400
+force -freeze sim:/bigpart/countq1 1 200 -cancel 40
+force -freeze sim:/bigpart/countq1 1 200 -cancel 400
+force -freeze sim:/bigpart/countq1 1 600 -cancel 800
+force -freeze sim:/bigpart/countq2 1 100 -cancel 200
+force -freeze sim:/bigpart/countq2 1 300 -cancel 400
+force -freeze sim:/bigpart/countq2 1 500 -cancel 600
+force -freeze sim:/bigpart/countq2 1 700 -cancel 800
+run
+force -freeze sim:/bigpart/countq0 1 0, 0 {50 ps} -r 100
+run
+force -freeze sim:/bigpart/countq0 1 0, 0 {50 ps} -r 100
+force -freeze sim:/bigpart/countq1 1 0, 0 {100 ps} -r 200
+force -freeze sim:/bigpart/countq2 1 0, 0 {200 ps} -r 400
+run
+run 800ps
+add wave sim:/bigpart/*
+clear
+# invalid command name "clear"
+run 800ps

@@ -1,0 +1,68 @@
+SELECT  *
+FROM	VRG_CUSTOMER
+WHERE	ROWNUM < 6;
+
+
+
+SELECT	*
+FROM	VRG_ARTIST;
+
+
+
+SELECT	*
+FROM	VRG_CUSTOMER_ARTIST_INT;
+
+
+
+
+
+
+SELECT	*
+FROM	VRG_WORK
+WHERE	Copy = 'Unique';
+
+
+
+
+SELECT	*
+FROM	VRG_TRANS;
+
+
+
+
+CREATE VIEW CustomerStateView AS
+	SELECT	VRG_CUSTOMER.State
+	FROM	VRG_CUSTOMER;
+	
+	
+	
+CREATE VIEW CustomerInfo_CA_View AS
+	SELECT	VRG_CUSTOMER.LastName, VRG_CUSTOMER.FirstName,
+			VRG_CUSTOMER.City, VRG_CUSTOMER.State
+	FROM 	VRG_CUSTOMER
+	WHERE	VRG_CUSTOMER.State = 'CA';
+	
+	
+	
+	
+CREATE VIEW ArtistWorkDescView AS
+	SELECT	VRG_ARTIST.LastName, VRG_ARTIST.FirstName,
+			VRG_ARTIST.Nationality, VRG_WORK.Title,
+			VRG_WORK.Description
+	FROM 	VRG_ARTIST, VRG_WORK
+	WHERE	VRG_ARTIST.ArtistID = VRG_WORK.ArtistID;
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

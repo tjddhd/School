@@ -1,0 +1,16 @@
+Script started on Mon 18 Feb 2013 12:39:05 PM CST
+tjddhd@rc03xcs213:~/CS328/Assignment2$ make
+Compiling Err.cpp
+In file included from Err.cpp:10:0:
+Err.h:13:12: error: ISO C++ forbids declaration of ‘RangeErr’ with no type [-fpermissive]
+Err.cpp:14:10: error: ISO C++ forbids declaration of ‘RangeErr’ with no type [-fpermissive]
+Err.cpp: In function ‘int RangeErr()’:
+Err.cpp:17:1: warning: no return statement in function returning non-void [-Wreturn-type]
+Err.cpp: At global scope:
+Err.cpp:19:6: error: ‘RangeErr’ is not a class or namespace
+make: *** [Err.o] Error 1
+tjddhd@rc03xcs213:~/CS328/Assignment2$ make clean
+tjddhd@rc03xcs213:~/CS328/Assignment2$ exit
+exit
+
+Script done on Mon 18 Feb 2013 12:39:16 PM CST

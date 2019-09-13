@@ -1,0 +1,757 @@
+Latitude (decimal degrees),Longitude (decimal degrees),City,City,Icon
+32.95,-85.95,Alexander City,Alexander City,1
+33.58333333,-85.85,Anniston AP,Anniston AP,2
+32.6,-85.5,Auburn,Auburn,3
+33.56666667,-86.75,Birmingham AP,Birmingham AP,4
+34.61666667,-86.98333333,Decatur,Decatur,5
+31.31666667,-85.45,Dothan AP,Dothan AP,6
+34.8,-87.66666667,Florence AP,Florence AP,7
+34.01666667,-86,Gadsden,Gadsden,8
+34.7,-86.58333333,Huntsville AP,Huntsville AP,9
+30.68333333,-88.25,Mobile AP,Mobile AP,10
+30.66666667,-88.25,Mobile Co,Mobile Co,11
+32.38333333,-86.36666667,Montgomery AP,Montgomery AP,12
+32.33333333,-87.98333333,Selma-Craig AFB,Selma-Craig AFB,13
+33.45,-86.1,Talladega,Talladega,14
+33.21666667,-87.61666667,Tuscaloosa AP,Tuscaloosa AP,15
+61.16666667,-150.0166667,Anchorage AP,Anchorage AP,16
+71.3,-156.7833333,Barrow (S),Barrow (S),17
+64.81666667,-147.8666667,Fairbanks AP (S),Fairbanks AP (S),18
+58.36666667,-134.5833333,Juneau AP,Juneau AP,19
+57.75,-152.4833333,Kodiak,Kodiak,20
+64.5,-165.4333333,Nome AP,Nome AP,21
+31.45,-109.6,Douglas AP,Douglas AP,22
+35.13333333,-111.6666667,Flagstaff AP,Flagstaff AP,23
+31.58333333,-110.3333333,Fort Huachuca AP (S),Fort Huachuca AP (S),24
+35.2,-114.0166667,Kingman AP,Kingman AP,25
+31.35,-110.9166667,Nogales,Nogales,26
+33.43333333,-112.0166667,Phoenix AP (S),Phoenix AP (S),27
+34.65,-112.4333333,Prescott AP,Prescott AP,28
+32.11666667,-110.9333333,Tucson AP (S),Tucson AP (S),29
+35.01666667,-110.7333333,Winslow AP,Winslow AP,30
+32.65,-114.6166667,Yuma AP,Yuma AP,31
+35.95,-89.95,Blytheville AFB,Blytheville AFB,32
+33.6,-92.81666667,Camden,Camden,33
+33.21666667,-92.81666667,El Dorado AP,El Dorado AP,34
+36,-94.16666667,Fayetteville AP,Fayetteville AP,35
+35.33333333,-94.36666667,Fort Smith AP,Fort Smith AP,36
+34.48333333,-93.1,Hot Springs,Hot Springs,37
+35.83333333,-90.7,Jonesboro,Jonesboro,38
+34.73333333,-92.23333333,Little Rock AP (S),Little Rock AP (S),39
+34.3,-92.08333333,Pine Bluff AP,Pine Bluff AP,40
+33.45,-93.98333333,Texarkana AP,Texarkana AP,41
+35.41666667,-119.05,Bakersfield AP,Bakersfield AP,42
+34.85,-116.7833333,Barstow AP,Barstow AP,43
+33.61666667,-114.7166667,Blythe AP,Blythe AP,44
+34.2,-118.35,Burbank AP,Burbank AP,45
+39.8,-121.85,Chico,Chico,46
+37.96666667,-121.9833333,Concord,Concord,47
+34.08333333,-117.8666667,Covina,Covina,48
+41.76666667,-124.2,Crescent City AP,Crescent City AP,49
+33.93333333,-118.1333333,Downey,Downey,50
+32.81666667,-116.9666667,El Cajon,El Cajon,51
+32.81666667,-115.6666667,El Cerrito AP (S),El Cerrito AP (S),52
+33.11666667,-117.0833333,Escondido,Escondido,53
+40.98333333,-124.1,Eureka/Arcata AP,Eureka/Arcata AP,54
+38.26666667,-121.9333333,Fairfield-Trafis AFB,Fairfield-Trafis AFB,55
+36.76666667,-119.7166667,Fresno AP (S),Fresno AP (S),56
+38.06666667,-122.5,Hamilton AFB,Hamilton AFB,57
+33.55,-117.7833333,Laguna Beach,Laguna Beach,58
+37.7,-121.95,Livermore,Livermore,59
+34.71666667,-120.5666667,"Lompoc, Vandenberg AFB","Lompoc, Vandenberg AFB",60
+33.81666667,-118.15,Long Beach AP,Long Beach AP,61
+33.93333333,-118.4,Los Angeles AP (S),Los Angeles AP (S),62
+34.05,-118.2333333,Los Angeles CO (S),Los Angeles CO (S),63
+37.38333333,-120.5666667,Merced-Castle AFB,Merced-Castle AFB,64
+37.65,-121,Modesto,Modesto,65
+36.6,-121.9,Monterey,Monterey,66
+38.21666667,-122.2833333,Napa,Napa,67
+34.6,-114.6166667,Needles AP,Needles AP,68
+37.81666667,-122.3166667,Oakland AP,Oakland AP,69
+33.23333333,-117.4166667,Oceanside,Oceanside,70
+34.05,-117.6,Ontario,Ontario,71
+34.2,-119.1833333,Oxnard,Oxnard,72
+34.63333333,-118.1,Palmdale AP,Palmdale AP,73
+33.81666667,-116.5333333,Palm Springs,Palm Springs,74
+34.15,-118.15,Pasadena,Pasadena,75
+38.23333333,-122.6333333,Petaluma,Petaluma,76
+34.05,-117.75,Pomona Co,Pomona Co,77
+40.51666667,-122.3,Redding AP,Redding AP,78
+34.05,-117.1833333,Redlands,Redlands,79
+37.93333333,-122.35,Richmond,Richmond,80
+33.9,-117.25,Riverside-March AFB (S),Riverside-March AFB (S),81
+38.51666667,-121.5,Sacramento AP,Sacramento AP,82
+36.66666667,-121.6,Salinas AP,Salinas AP,83
+34.13333333,-117.2666667,"San Bernadino, Norton AFB","San Bernadino, Norton AFB",84
+32.73333333,-117.1666667,San Diego AP,San Diego AP,85
+34.28333333,-118.4666667,San Fernando,San Fernando,86
+37.61666667,-122.3833333,San Francisco AP,San Francisco AP,87
+37.76666667,-122.4333333,San Francisco Co,San Francisco Co,88
+37.36666667,-121.9333333,San Jose AP,San Jose AP,89
+35.33333333,-120.7166667,San Louis Obispo,San Louis Obispo,90
+33.75,-117.8666667,Santa Ana AP,Santa Ana AP,91
+34.43333333,-119.8333333,Santa Barbara MAP,Santa Barbara MAP,92
+36.98333333,-122.0166667,Santa Cruz,Santa Cruz,93
+34.9,-120.45,Santa Maria AP (S),Santa Maria AP (S),94
+34.01666667,-118.4833333,Santa Monica CIC,Santa Monica CIC,95
+34.35,-119.0833333,Santa Paula,Santa Paula,96
+38.51666667,-122.8166667,Santa Rosa,Santa Rosa,97
+37.9,-121.25,Stockton AP,Stockton AP,98
+39.15,-123.2,Ukiah,Ukiah,99
+36.33333333,-119.3,Visalia,Visalia,100
+41.71666667,-122.6333333,Yreka,Yreka,101
+39.13333333,-121.6,Yuba City,Yuba City,102
+37.45,-105.8666667,Alamosa AP,Alamosa AP,103
+40,-105.2666667,Boulder,Boulder,104
+38.81666667,-104.7166667,Colorado Springs AP,Colorado Springs AP,105
+39.75,-104.8666667,Denver AP,Denver AP,106
+37.28333333,-107.8833333,Durango,Durango,107
+40.75,-105.0833333,Fort Collins,Fort Collins,108
+39.11666667,-108.5333333,Grand Junction AP (S),Grand Junction AP (S),109
+40.43333333,-104.6333333,Greeley,Greeley,110
+38.05,-103.5,Lajunta AP,Lajunta AP,111
+39.25,-106.3,Leadville,Leadville,112
+38.3,-104.4833333,Pueblo AP,Pueblo AP,113
+40.61666667,-103.2,Sterling,Sterling,114
+37.25,-104.3333333,Trinidad,Trinidad,115
+41.18333333,-73.18333333,Bridgeport AP,Bridgeport AP,116
+41.73333333,-72.65,"Hartford, Brainard Field","Hartford, Brainard Field",117
+41.31666667,-73.91666667,New Haven AP,New Haven AP,118
+41.35,-72.1,New London,New London,119
+41.11666667,-73.41666667,Norwalk,Norwalk,120
+41.53333333,-72.06666667,Norwick,Norwick,121
+41.58333333,-73.06666667,Waterbury,Waterbury,122
+41.93333333,-72.68333333,"Widsor Locks, Bradley Fld","Widsor Locks, Bradley Fld",123
+39.13333333,-75.46666667,Dover AFB,Dover AFB,124
+39.66666667,-75.6,Wilmington AP,Wilmington AP,125
+38.08333333,-76.08333333,Andrews AFB,Andrews AFB,126
+38.85,-77.03333333,"Washington, National AP","Washington, National AP",127
+26.65,-80.65,Belle Glade,Belle Glade,128
+28.48333333,-80.56666667,Cape Kennedy AP,Cape Kennedy AP,129
+29.18333333,-81.05,Daytona Beach AP,Daytona Beach AP,130
+26.06666667,-80.15,E Fort Lauderdale,E Fort Lauderdale,131
+26.58333333,-81.86666667,Fort Myers AP,Fort Myers AP,132
+27.46666667,-80.35,Fort Pierce,Fort Pierce,133
+29.68333333,-82.26666667,Gainsville AP (S),Gainsville AP (S),134
+30.5,-81.7,Jacksonville AP,Jacksonville AP,135
+24.55,-81.75,Key West AP,Key West AP,136
+28.03333333,-81.95,Lakeland Co (S),Lakeland Co (S),137
+25.8,-80.26666667,Miami AP (S),Miami AP (S),138
+25.78333333,-80.28333333,Miami Beach Co,Miami Beach Co,139
+29.18333333,-82.13333333,Ocala,Ocala,140
+28.55,-81.38333333,Orlando AP,Orlando AP,141
+30.06666667,-85.58333333,"Panama City, Tyndall AFB","Panama City, Tyndall AFB",142
+30.41666667,-87.21666667,Pensacola Co,Pensacola Co,143
+29.96666667,-81.33333333,St. Augustine,St. Augustine,144
+27.76666667,-83.33333333,St. Petersburg,St. Petersburg,145
+28.76666667,-81.28333333,Stanford,Stanford,146
+27.38333333,-82.55,Sarasota,Sarasota,147
+30.38333333,-84.36666667,Tallahassee AP (S),Tallahassee AP (S),148
+27.96666667,-82.53333333,Tampa AP (S),Tampa AP (S),149
+26.68333333,-80.1,West Palm Beach AP,West Palm Beach AP,150
+31.6,-84.08333333,"Albany, Turner AFB","Albany, Turner AFB",151
+32.05,-84.23333333,Americus,Americus,152
+33.95,-83.31666667,Athens,Athens,153
+33.65,-84.43333333,Atlanta AP (S),Atlanta AP (S),154
+33.36666667,-81.96666667,Augusta AP,Augusta AP,155
+31.25,-81.48333333,Brunswick,Brunswick,156
+32.51666667,-84.93333333,"Columbus, Lawson AFB","Columbus, Lawson AFB",157
+34.56666667,-84.95,Dalton,Dalton,158
+32.33333333,-82.9,Dublin,Dublin,159
+34.18333333,-83.68333333,Gainsville,Gainsville,160
+33.21666667,-84.26666667,Griffin,Griffin,161
+33.01666667,-85.06666667,LaGrange,LaGrange,162
+32.7,-83.65,Macon AP,Macon AP,163
+33.91666667,-84.51666667,"Marietta, Dobbins AFB","Marietta, Dobbins AFB",164
+32.13333333,-81.2,Savannah,Savannah,165
+30.96666667,-83.2,Valdosta-Moody AFB,Valdosta-Moody AFB,166
+31.25,-82.4,Waycross,Waycross,167
+19.71666667,-155.0833333,Hilo AP (S),Hilo AP (S),168
+21.33333333,-157.9166667,Honolulu AP,Honolulu AP,169
+21.45,-157.7666667,Kaneohe Bay MCAS,Kaneohe Bay MCAS,170
+21.05,-158.0333333,Wahiawa,Wahiawa,171
+43.56666667,-116.2166667,Boise AP (S),Boise AP (S),172
+42.53333333,-113.7666667,Burley,Burley,173
+47.76666667,-116.8166667,Coeur D'Alene AP,Coeur D'Alene AP,174
+43.51666667,-112.0666667,Idaho Falls AP,Idaho Falls AP,175
+46.38333333,-117.0166667,Lewiston AP,Lewiston AP,176
+46.73333333,-116.9666667,Moscow,Moscow,177
+43.03333333,-115.9,Mountain Home AFB,Mountain Home AFB,178
+42.91666667,-112.6,Pocatello AP,Pocatello AP,179
+42.48333333,-114.4833333,Twin Falls AP (S),Twin Falls AP (S),180
+41.75,-88.33333333,Aurora,Aurora,181
+38.55,-89.85,"Belleville, Scott AFB","Belleville, Scott AFB",182
+40.48333333,-88.95,Bloomington,Bloomington,183
+37.78333333,-89.25,Carbondale,Carbondale,184
+40.03333333,-88.28333333,Champaign/Urbana,Champaign/Urbana,185
+41.78333333,-87.75,"Chicago, Midway AP","Chicago, Midway AP",186
+41.98333333,-87.9,"Chicago, O'Hare AP","Chicago, O'Hare AP",187
+41.88333333,-87.63333333,Chicago Co,Chicago Co,188
+40.2,-87.6,Danville,Danville,189
+39.83333333,-88.86666667,Decatur,Decatur,190
+41.83333333,-89.48333333,Dixon,Dixon,191
+42.03333333,-88.26666667,Elgin,Elgin,192
+42.3,-89.61666667,Freeport,Freeport,193
+40.93333333,-90.43333333,Galesburg,Galesburg,194
+38.88333333,-89.4,Greenville,Greenville,195
+41.51666667,-88.16666667,Joliet,Joliet,196
+41.08333333,-87.91666667,Kankakee,Kankakee,197
+41.31666667,-89.1,La Salle/Peru,La Salle/Peru,198
+40.46666667,-90.66666667,Macomb,Macomb,199
+41.45,-90.51666667,Moline AP,Moline AP,200
+38.31666667,-88.86666667,Mt Vernon,Mt Vernon,201
+40.66666667,-89.68333333,Peoria AP,Peoria AP,202
+39.95,-91.2,Quincy AP,Quincy AP,203
+40.3,-88.13333333,"Rantoul, Chanute AFB","Rantoul, Chanute AFB",204
+42.35,-89.05,Rockford,Rockford,205
+39.83333333,-89.66666667,Springfield AP,Springfield AP,206
+42.35,-87.88333333,Waukegan,Waukegan,207
+40.1,-85.61666667,Anderson,Anderson,208
+38.85,-86.5,Bedford,Bedford,209
+39.13333333,-86.61666667,Bloomington,Bloomington,210
+39.26666667,-85.9,"Columbus, Bakalar AFB","Columbus, Bakalar AFB",211
+40.05,-86.9,Crawfordsville,Crawfordsville,212
+38.05,-87.53333333,Evansville AP,Evansville AP,213
+41,-85.2,Fort Wayne AP,Fort Wayne AP,214
+41.53333333,-85.8,Goshen AP,Goshen AP,215
+41.53333333,-87.25,Hobart,Hobart,216
+40.88333333,-85.5,Huntington,Huntington,217
+39.73333333,-86.28333333,Indianapolis AP,Indianapolis AP,218
+38.28333333,-85.75,Jeffersonville,Jeffersonville,219
+40.41666667,-86.05,Kokomo,Kokomo,220
+40.03333333,-86.08333333,Lafayette,Lafayette,221
+41.6,-86.71666667,La Porte,La Porte,222
+40.48333333,-85.68333333,Marion,Marion,223
+40.18333333,-85.35,Muncie,Muncie,224
+40.65,-86.15,"Peru, Grissom AFB","Peru, Grissom AFB",225
+39.76666667,-84.83333333,Richmond AP,Richmond AP,226
+39.51666667,-85.78333333,Shelbyville,Shelbyville,227
+41.7,-86.31666667,South Bend AP,South Bend AP,228
+39.45,-87.3,Terre Haute AP,Terre Haute AP,229
+41.51666667,-87.03333333,Valparaiso,Valparaiso,230
+38.68333333,-87.53333333,Vincennes,Vincennes,231
+42.03333333,-93.8,Ames (S),Ames (S),232
+40.78333333,-91.11666667,Burlington AP,Burlington AP,233
+41.88333333,-91.7,Cedar Rapids AP,Cedar Rapids AP,234
+41.83333333,-90.21666667,Clinton,Clinton,235
+41.33333333,-95.81666667,Council Bluffs,Council Bluffs,236
+41.53333333,-93.65,Des Moines AP,Des Moines AP,237
+42.4,-90.7,Dubuque,Dubuque,238
+42.55,-94.18333333,Fort Dodge,Fort Dodge,239
+41.63333333,-91.55,Iowa City,Iowa City,240
+40.4,-91.4,Keokuk,Keokuk,241
+42.06666667,-92.93333333,Marshalltown,Marshalltown,242
+43.15,-93.33333333,Mason City AP,Mason City AP,243
+41.68333333,-93.03333333,Newton,Newton,244
+41.1,-92.45,Ottumwa AP,Ottumwa AP,245
+42.4,-96.38333333,Sioux City AP,Sioux City AP,246
+42.55,-92.4,Waterloo,Waterloo,247
+39.56666667,-95.11666667,Atchison,Atchison,248
+37.66666667,-95.48333333,Chanute AP,Chanute AP,249
+37.76666667,-99.96666667,Dodge City AP (S),Dodge City AP (S),250
+37.81666667,-96.83333333,El Dorado,El Dorado,251
+38.33333333,-96.2,Emporia,Emporia,252
+37.93333333,-100.7333333,Garden City AP,Garden City AP,253
+39.36666667,-101.7,Goodland AP,Goodland AP,254
+38.35,-98.86666667,Great Bend,Great Bend,255
+38.06666667,-97.86666667,Hutchinson AP,Hutchinson AP,256
+37.05,-100.9666667,Liberal,Liberal,257
+39.05,-96.76666667,"Manhattan, Ft Riley (S)","Manhattan, Ft Riley (S)",258
+37.33333333,-95.51666667,Parsons,Parsons,259
+38.86666667,-98.81666667,Russell AP,Russell AP,260
+38.8,-97.65,Salina,Salina,261
+39.06666667,-95.63333333,Topeka AP,Topeka AP,262
+37.65,-97.41666667,Wichita AP,Wichita AP,263
+38.55,-82.73333333,Ashland,Ashland,264
+35.96666667,-86.46666667,Bowling Green AP,Bowling Green AP,265
+36.95,-84.1,Corbin AP,Corbin AP,266
+39.05,-84.66666667,Covington AP,Covington AP,267
+36.66666667,-87.48333333,"Hopkinsville, Ft Campbell","Hopkinsville, Ft Campbell",268
+38.03333333,-84.6,Lexington AP (S),Lexington AP (S),269
+38.18333333,-85.73333333,Louisville AP,Louisville AP,270
+37.31666667,-87.48333333,Madisonville,Madisonville,271
+37.75,-87.16666667,Owensboro,Owensboro,272
+37.06666667,-88.76666667,Paducah AP,Paducah AP,273
+31.4,-92.3,Alexandria AP,Alexandria AP,274
+30.53333333,-91.15,Baton Rouge AP,Baton Rouge AP,275
+30.78333333,-89.86666667,Bogalusa,Bogalusa,276
+29.51666667,-90.66666667,Houma,Houma,277
+30.2,-92,Lafayette AP,Lafayette AP,278
+30.11666667,-93.21666667,Lake Charles AP (S),Lake Charles AP (S),279
+32.6,-93.3,Minden,Minden,280
+32.51666667,-92.03333333,Monroe AP,Monroe AP,281
+31.76666667,-93.08333333,Natchitoches,Natchitoches,282
+29.98333333,-90.25,New Orleans AP,New Orleans AP,283
+32.46666667,-93.81666667,Shreveport AP (S),Shreveport AP (S),284
+44.31666667,-69.8,Augusta AP,Augusta AP,285
+44.8,-68.83333333,"Bangor, Dow AFB","Bangor, Dow AFB",286
+46.86666667,-68.01666667,Caribou AP (S),Caribou AP (S),287
+44.03333333,-70.25,Lewiston,Lewiston,288
+45.65,-68.7,Millinocket AP,Millinocket AP,289
+43.65,-70.31666667,Portland (S),Portland (S),290
+44.53333333,-69.66666667,Waterville,Waterville,291
+39.18333333,-76.66666667,Baltimore AP,Baltimore AP,292
+39.33333333,-76.41666667,Baltimore Co,Baltimore Co,293
+39.61666667,-78.76666667,Cumberland,Cumberland,294
+39.45,-77.41666667,Frederick AP,Frederick AP,295
+39.7,-77.73333333,Hagerstown,Hagerstown,296
+38.33333333,-75.5,Salisbury (S),Salisbury (S),297
+42.36666667,-71.03333333,Boston AP,Boston AP,298
+42.4,-71.68333333,Clinton,Clinton,299
+41.71666667,-71.13333333,Fall River,Fall River,300
+42.28333333,-71.41666667,Framingham,Framingham,301
+42.58333333,-70.68333333,Gloucester,Gloucester,302
+42.05,-72.06666667,Greenfield,Greenfield,303
+42.7,-71.16666667,Lawrence,Lawrence,304
+42.65,-71.31666667,Lowell,Lowell,305
+41.68333333,-70.96666667,New Bedford,New Bedford,306
+42.43333333,-73.3,Pittsfield AP,Pittsfield AP,307
+42.2,-72.53333333,"Springfield, Westover AFB","Springfield, Westover AFB",308
+41.9,-71.06666667,Taunton,Taunton,309
+42.26666667,-71.86666667,Worcester AP,Worcester AP,310
+41.91666667,-84.01666667,Adrian,Adrian,311
+45.06666667,-83.43333333,Alpena AP,Alpena AP,312
+42.31666667,-85.25,Battle Creek AP,Battle Creek AP,313
+42.13333333,-86.43333333,Benton Harbor AP,Benton Harbor AP,314
+42.41666667,-83.01666667,Detroit,Detroit,315
+45.73333333,-87.08333333,Escanaba,Escanaba,316
+42.96666667,-83.73333333,Flint AP,Flint AP,317
+42.88333333,-85.51666667,Grand Rapids AP,Grand Rapids AP,318
+42.7,-86.1,Holland,Holland,319
+42.26666667,-84.46666667,Jackson AP,Jackson AP,320
+42.28333333,-85.6,Kalamazoo,Kalamazoo,321
+42.78333333,-84.6,Lansing AP,Lansing AP,322
+46.56666667,-87.4,Marquette Co,Marquette Co,323
+43.58333333,-84.76666667,Mt Pleasant,Mt Pleasant,324
+43.16666667,-86.23333333,Muskegon AP,Muskegon AP,325
+42.66666667,-83.41666667,Pontiac,Pontiac,326
+42.98333333,-82.41666667,Port Huron,Port Huron,327
+43.53333333,-84.08333333,Saginaw AP,Saginaw AP,328
+46.46666667,-84.36666667,Sault Ste. Marie AP (S),Sault Ste. Marie AP (S),329
+44.75,-85.58333333,Traverse City AP,Traverse City AP,330
+42.23333333,-83.53333333,Ypsilanti,Ypsilanti,331
+43.65,-93.35,Albert Lea,Albert Lea,332
+45.86666667,-95.38333333,Alexandria AP,Alexandria AP,333
+47.51666667,-94.93333333,Bemidji AP,Bemidji AP,334
+46.4,-94.13333333,Brainerd,Brainerd,335
+46.83333333,-92.18333333,Duluth AP,Duluth AP,336
+44.3,-93.26666667,Fairbault,Fairbault,337
+46.26666667,-96.06666667,Fergus Falls,Fergus Falls,338
+48.56666667,-93.38333333,International Falls AP,International Falls AP,339
+44.15,-93.98333333,Mankato,Mankato,340
+44.88333333,-93.21666667,Minneapolis/St. Paul AP,Minneapolis/St. Paul AP,341
+43.91666667,-92.5,Rochester AP,Rochester AP,342
+45.58333333,-94.18333333,St. Cloud AP (S),St. Cloud AP (S),343
+47.5,-92.55,Virginia,Virginia,344
+45.11666667,-95.08333333,Willmar,Willmar,345
+44.05,-91.63333333,Winona,Winona,346
+30.41666667,-88.91666667,Biloxi--Keesler AFB,Biloxi--Keesler AFB,347
+34.2,-90.56666667,Clarksdale,Clarksdale,348
+33.65,-88.45,Columbus AFB,Columbus AFB,349
+33.48333333,-90.98333333,Greenville AFB,Greenville AFB,350
+33.5,-90.08333333,Greenwood,Greenwood,351
+31.26666667,-89.25,Hattiesburg,Hattiesburg,352
+32.31666667,-90.08333333,Jackson AP,Jackson AP,353
+31.66666667,-89.16666667,Laurel,Laurel,354
+31.25,-90.46666667,Mccomb AP,Mccomb AP,355
+32.33333333,-88.75,Meridian AP,Meridian AP,356
+31.55,-91.38333333,Natchez,Natchez,357
+34.26666667,-88.76666667,Tupelo,Tupelo,358
+32.4,-90.78333333,Vicksburg Co,Vicksburg Co,359
+37.23333333,-89.58333333,Cape Girardeau,Cape Girardeau,360
+38.96666667,-92.36666667,Columbia AP (S),Columbia AP (S),361
+37.76666667,-90.4,Farmington AP,Farmington AP,362
+39.7,-91.35,Hannibal,Hannibal,363
+38.56666667,-92.18333333,Jefferson City,Jefferson City,364
+37.15,-94.5,Joplin AP,Joplin AP,365
+39.11666667,-94.58333333,Kansas City AP,Kansas City AP,366
+40.1,-92.55,Kirksville AP,Kirksville AP,367
+39.18333333,-91.9,Mexico,Mexico,368
+39.4,-92.43333333,Moberly,Moberly,369
+36.76666667,-90.41666667,Poplar Bluff,Poplar Bluff,370
+37.98333333,-91.71666667,Rolla,Rolla,371
+39.76666667,-94.91666667,St. Joseph AP,St. Joseph AP,372
+38.75,-90.38333333,St. Louis AP,St. Louis AP,373
+38.65,-90.63333333,St. Louis CO,St. Louis CO,374
+36.88333333,-89.6,Sikeston,Sikeston,375
+38.71666667,-93.55,Sedalia--Whiteman AFB,Sedalia--Whiteman AFB,376
+36.88333333,-89.6,Sikeston,Sikeston,377
+37.23333333,-93.38333333,Springfield AP,Springfield AP,378
+45.8,-108.5333333,Billings AP,Billings AP,379
+45.78333333,-111.15,Bozeman,Bozeman,380
+45.95,-112.5,Butte AP,Butte AP,381
+48.61666667,-112.3666667,Cut Bank AP,Cut Bank AP,382
+48.41666667,-106.5333333,Glasgow AP (S),Glasgow AP (S),383
+47.13333333,-104.8,Glendive,Glendive,384
+47.48333333,-111.3666667,Great Falls AP (S),Great Falls AP (S),385
+48.56666667,-109.6666667,Havre,Havre,386
+46.6,-112,Helena AP,Helena AP,387
+48.3,-114.2666667,Kalispell AP,Kalispell AP,388
+47.06666667,-109.45,Lewiston AP,Lewiston AP,389
+45.7,-110.4333333,Livingstown AP,Livingstown AP,390
+46.43333333,-105.8666667,Miles City AP,Miles City AP,391
+46.91666667,-114.0833333,Missoula AP,Missoula AP,392
+40.26666667,-96.75,Beatrice,Beatrice,393
+42.83333333,-103.0833333,Chadron AP,Chadron AP,394
+41.46666667,-97.33333333,Columbus,Columbus,395
+41.43333333,-96.48333333,Fremont,Fremont,396
+40.98333333,-98.31666667,Grand Island AP,Grand Island AP,397
+40.6,-98.43333333,Hastings,Hastings,398
+40.73333333,-99.01666667,Kearney,Kearney,399
+40.85,-96.75,Lincoln Co (S),Lincoln Co (S),400
+40.2,-100.6333333,McCook,McCook,401
+41.98333333,-97.43333333,Norfolk,Norfolk,402
+41.13333333,-100.6833333,North Platte AP (S),North Platte AP (S),403
+41.3,-95.9,Omaha AP,Omaha AP,404
+41.86666667,-103.6,Scottsbluff AP,Scottsbluff AP,405
+41.21666667,-103.1,Sidney AP,Sidney AP,406
+39.16666667,-119.7666667,Carson City,Carson City,407
+40.83333333,-115.7833333,Elko AP,Elko AP,408
+39.28333333,-114.85,Ely AP (S),Ely AP (S),409
+36.08333333,-115.1666667,Las Vegas AP (S),Las Vegas AP (S),410
+40.06666667,-118.55,Lovelock AP,Lovelock AP,411
+39.5,-119.7833333,Reno AP (S),Reno AP (S),412
+39.5,-119.7833333,Reno Co,Reno Co,413
+38.06666667,-117.0833333,Tonopah AP,Tonopah AP,414
+40.9,-117.8,Winnemucca AP,Winnemucca AP,415
+44.05,-71.01666667,Berlin,Berlin,416
+43.03333333,-72.03333333,Claremont,Claremont,417
+43.2,-71.5,Concord AP,Concord AP,418
+42.91666667,-72.28333333,Keene,Keene,419
+43.05,-71.05,Laconia,Laconia,420
+42.93333333,-71.43333333,"Manchester, Grenier AFB","Manchester, Grenier AFB",421
+43.06666667,-70.81666667,"Portsmouth, Pease AFB","Portsmouth, Pease AFB",422
+39.38333333,-74.43333333,Atlantic City CO,Atlantic City CO,423
+40.31666667,-74.01666667,Long Branch,Long Branch,424
+40.7,-74.16666667,Newark AP,Newark AP,425
+40.48333333,-74.43333333,New Brunswick,New Brunswick,426
+40.9,-74.15,Paterson,Paterson,427
+40.68333333,-75.18333333,Phillipsburg,Phillipsburg,428
+40.21666667,-74.76666667,Trenton Co,Trenton Co,429
+39.48333333,-75,Vineland,Vineland,430
+32.9,-105.95,Alamagordo°,Alamagordo°,431
+32.85,-106.1,Holloman AFB,Holloman AFB,432
+35.05,-106.6166667,Albuquerque AP (S),Albuquerque AP (S),433
+32.76666667,-104.3833333,Artesia,Artesia,434
+32.33333333,-104.2666667,Carlsbad AP,Carlsbad AP,435
+34.38333333,-103.3166667,Clovis AP,Clovis AP,436
+36.73333333,-108.2333333,Farmington AP,Farmington AP,437
+35.51666667,-108.7833333,Gallup,Gallup,438
+35.16666667,-107.9,Grants,Grants,439
+32.75,-103.2166667,Hobbs AP,Hobbs AP,440
+32.3,-106.9166667,Las Cruces,Las Cruces,441
+35.86666667,-106.3166667,Los Alamos,Los Alamos,442
+36.75,-104.5,Raton AP,Raton AP,443
+33.3,-104.5333333,"Roswell, Walker AFB","Roswell, Walker AFB",444
+35.61666667,-106.0833333,Santa Fe CO,Santa Fe CO,445
+32.63333333,-108.1666667,Silver City AP,Silver City AP,446
+34.05,-106.8833333,Socorro AP,Socorro AP,447
+35.18333333,-103.6,Tucumcari AP,Tucumcari AP,448
+42.75,-73.8,Albany AP (S),Albany AP (S),449
+42.65,-73.75,Albany Co,Albany Co,450
+42.9,-76.53333333,Auburn,Auburn,451
+43,-78.18333333,Batavia,Batavia,452
+42.21666667,-75.98333333,Binghamton AP,Binghamton AP,453
+42.93333333,-78.73333333,Buffalo AP,Buffalo AP,454
+42.6,-76.18333333,Cortland,Cortland,455
+42.48333333,-79.26666667,Dunkirk,Dunkirk,456
+42.16666667,-76.9,Elmira AP,Elmira AP,457
+42.75,-76.9,Geneva (S),Geneva (S),458
+43.33333333,-73.61666667,Glens Falls,Glens Falls,459
+43.03333333,-74.35,Gloversville,Gloversville,460
+42.35,-77.7,Hornell,Hornell,461
+42.45,-76.48333333,Ithaca (S),Ithaca (S),462
+42.11666667,-79.23333333,Jamestown,Jamestown,463
+41.93333333,-74,Kingston,Kingston,464
+43.15,-79.25,Lockport,Lockport,465
+44.93333333,-74.85,Massena AP,Massena AP,466
+41.5,-74.1,"Newburgh, Stewart AFB","Newburgh, Stewart AFB",467
+40.78333333,-73.96666667,NYC-Central Park (S),NYC-Central Park (S),468
+40.65,-73.78333333,NYC-Kennedy AP,NYC-Kennedy AP,469
+40.76666667,-73.9,NYC-La Guardia AP,NYC-La Guardia AP,470
+43.1,-79.95,Niagara Falls AP,Niagara Falls AP,471
+42.23333333,-78.36666667,Olean,Olean,472
+42.51666667,-75.06666667,Oneonta,Oneonta,473
+43.46666667,-76.55,Oswego Co,Oswego Co,474
+44.65,-73.46666667,Plattsburg AFB,Plattsburg AFB,475
+41.63333333,-73.91666667,Poughkeepsie,Poughkeepsie,476
+43.11666667,-77.66666667,Rochester AP,Rochester AP,477
+43.23333333,-75.41666667,"Rome, Griffiss AFB","Rome, Griffiss AFB",478
+42.85,-73.95,Schenectady (S),Schenectady (S),479
+40.85,-72.63333333,Suffolk County AFB,Suffolk County AFB,480
+43.11666667,-76.11666667,Syracuse AP,Syracuse AP,481
+43.15,-75.38333333,Utica,Utica,482
+43.98333333,-76.01666667,Watertown,Watertown,483
+35.43333333,-82.53333333,Asheville AP,Asheville AP,484
+35.21666667,-80.93333333,Charlotte AP,Charlotte AP,485
+35.86666667,-78.78333333,Durham,Durham,486
+36.26666667,-76.18333333,Elizabeth City AP,Elizabeth City AP,487
+35.16666667,-79.01666667,"Fayetteville, Pope AFB","Fayetteville, Pope AFB",488
+35.33333333,-77.96666667,"Goldsboro,Seymour-Johnson","Goldsboro,Seymour-Johnson",489
+36.08333333,-79.95,Greensboro AP (S),Greensboro AP (S),490
+35.61666667,-77.41666667,Greenville,Greenville,491
+36.36666667,-78.41666667,Henderson,Henderson,492
+35.75,-81.38333333,Hickory,Hickory,493
+34.83333333,-77.61666667,Jacksonville,Jacksonville,494
+34.61666667,-79.06666667,Lumberton,Lumberton,495
+35.08333333,-77.05,New Bern AP,New Bern AP,496
+35.86666667,-78.78333333,Raleigh/Durham AP (S),Raleigh/Durham AP (S),497
+35.96666667,-77.8,Rocky Mount,Rocky Mount,498
+34.26666667,-77.91666667,Wilmington AP,Wilmington AP,499
+36.13333333,-80.21666667,Winston-Salem AP,Winston-Salem AP,500
+46.76666667,-100.75,Bismarck AP (S),Bismarck AP (S),501
+48.11666667,-98.9,Devils Lake,Devils Lake,502
+46.8,-102.8,Dickinson AP,Dickinson AP,503
+46.9,-96.8,Fargo AP,Fargo AP,504
+47.95,-97.4,Grand Forks AP,Grand Forks AP,505
+46.91666667,-98.68333333,Jamestown AP,Jamestown AP,506
+48.41666667,-101.35,Minot AP,Minot AP,507
+48.15,-103.5833333,Williston,Williston,508
+40.91666667,-81.43333333,Akron-Canton AP,Akron-Canton AP,509
+41.85,-80.8,Ashtabula,Ashtabula,510
+39.33333333,-82.1,Athens,Athens,511
+41.38333333,-83.63333333,Bowling Green,Bowling Green,512
+40.06666667,-81.58333333,Cambridge,Cambridge,513
+39.35,-83,Chillicothe,Chillicothe,514
+39.15,-84.51666667,Cincinnati Co,Cincinnati Co,515
+41.4,-81.85,Cleveland AP (S),Cleveland AP (S),516
+40,-82.88333333,Columbus AP (S),Columbus AP (S),517
+39.9,-84.21666667,Dayton AP,Dayton AP,518
+41.28333333,-84.38333333,Defiance,Defiance,519
+41.01666667,-83.66666667,Findlay AP,Findlay AP,520
+41.33333333,-83.11666667,Fremont,Fremont,521
+39.4,-84.58333333,Hamilton,Hamilton,522
+39.73333333,-82.63333333,Lancaster,Lancaster,523
+40.7,-84.03333333,Lima,Lima,524
+40.81666667,-82.51666667,Mansfield AP,Mansfield AP,525
+40.6,-83.16666667,Marion,Marion,526
+39.51666667,-84.41666667,Middletown,Middletown,527
+40.01666667,-82.46666667,Newark,Newark,528
+41.26666667,-82.61666667,Norwalk,Norwalk,529
+38.75,-82.91666667,Portsmouth,Portsmouth,530
+41.45,-82.71666667,Sandusky Co,Sandusky Co,531
+39.83333333,-83.83333333,Springfield,Springfield,532
+40.38333333,-80.63333333,Steubenville,Steubenville,533
+41.6,-83.8,Toledo AP,Toledo AP,534
+41.33333333,-80.85,Warren,Warren,535
+40.78333333,-81.91666667,Wooster,Wooster,536
+41.26666667,-80.66666667,Youngstown AP,Youngstown AP,537
+39.95,-81.9,Zanesville AP,Zanesville AP,538
+34.78333333,-96.68333333,Ada,Ada,539
+34.65,-99.26666667,Altus AFB,Altus AFB,540
+34.3,-97.01666667,Ardmore,Ardmore,541
+36.75,-96,Bartlesville,Bartlesville,542
+35.05,-97.91666667,Chickasha,Chickasha,543
+36.35,-97.91666667,"Enid, Vance AFB","Enid, Vance AFB",544
+34.56666667,-98.41666667,Lawton AP,Lawton AP,545
+34.83333333,-95.91666667,McAlester,McAlester,546
+35.66666667,-95.36666667,Muskogee AP,Muskogee AP,547
+35.25,-97.48333333,Norman,Norman,548
+35.4,-97.6,Oklahoma City AP (S),Oklahoma City AP (S),549
+36.73333333,-97.1,Ponca City,Ponca City,550
+35.23333333,-96.66666667,Seminole,Seminole,551
+36.16666667,-97.08333333,Stillwater (S),Stillwater (S),552
+36.2,-95.9,Tulsa AP,Tulsa AP,553
+36.6,-99.51666667,Woodward,Woodward,554
+44.63333333,-123.1166667,Albany,Albany,555
+46.15,-123.8833333,Astoria AP (S),Astoria AP (S),556
+44.83333333,-117.8166667,Baker AP,Baker AP,557
+44.06666667,-121.3166667,Bend,Bend,558
+44.5,-123.2833333,Corvallis (S),Corvallis (S),559
+44.11666667,-123.2166667,Eugene AP,Eugene AP,560
+42.43333333,-123.3166667,Grants Pass,Grants Pass,561
+42.15,-121.7333333,Klamath Falls AP,Klamath Falls AP,562
+42.36666667,-122.8666667,Medford AP (S),Medford AP (S),563
+45.68333333,-118.85,Pendleton AP,Pendleton AP,564
+45.6,-122.6,Portland AP,Portland AP,565
+45.53333333,-122.6666667,Portland Co,Portland Co,566
+43.23333333,-123.3666667,Roseburg AP,Roseburg AP,567
+44.91666667,-123.0166667,Salem AP,Salem AP,568
+45.6,-121.2,The Dalles,The Dalles,569
+40.65,-75.43333333,Allentown AP,Allentown AP,570
+40.3,-78.31666667,Altoona Co,Altoona Co,571
+40.86666667,-79.9,Butler,Butler,572
+39.93333333,-77.63333333,Chambersburg,Chambersburg,573
+42.08333333,-80.18333333,Erie AP,Erie AP,574
+40.2,-76.76666667,Harrisburg AP,Harrisburg AP,575
+40.31666667,-78.83333333,Johnstown,Johnstown,576
+40.11666667,-76.3,Lancaster,Lancaster,577
+41.63333333,-80.16666667,Meadville,Meadville,578
+41.01666667,-80.36666667,New Castle,New Castle,579
+39.88333333,-75.25,Philadelphia AP,Philadelphia AP,580
+40.5,-80.21666667,Pittsburgh AP,Pittsburgh AP,581
+40.45,-80,Pittsburgh Co,Pittsburgh Co,582
+40.33333333,-75.63333333,Reading Co,Reading Co,583
+41.33333333,-75.73333333,Scranton/Wilkes-Barre,Scranton/Wilkes-Barre,584
+40.8,-77.86666667,State College (S),State College (S),585
+40.88333333,-76.76666667,Sunbury,Sunbury,586
+39.91666667,-79.71666667,Uniontown,Uniontown,587
+41.85,-79.13333333,Warren,Warren,588
+39.96666667,-75.63333333,West Chester,West Chester,589
+41.25,-76.91666667,Williamsport AP,Williamsport AP,590
+39.91666667,-76.75,York,York,591
+41.5,-71.33333333,Newport (S),Newport (S),592
+41.73333333,-71.43333333,Providence AP,Providence AP,593
+34.5,-82.71666667,Anderson,Anderson,594
+32.9,-80.03333333,Charleston AFB (S),Charleston AFB (S),595
+32.9,-79.96666667,Charleston Co,Charleston Co,596
+33.95,-81.11666667,Columbia AP,Columbia AP,597
+34.18333333,-79.71666667,Florence AP,Florence AP,598
+33.38333333,-79.28333333,Georgetown,Georgetown,599
+34.9,-82.21666667,Greenville AP,Greenville AP,600
+34.16666667,-82.11666667,Greenwood,Greenwood,601
+33.5,-80.86666667,Orangeburg,Orangeburg,602
+34.98333333,-80.96666667,Rock Hill,Rock Hill,603
+34.96666667,-82,Spartanburg AP,Spartanburg AP,604
+33.9,-80.36666667,"Sumter, Shaw AFB","Sumter, Shaw AFB",605
+45.45,-98.43333333,Aberdeen AP,Aberdeen AP,606
+44.3,-96.8,Brookings,Brookings,607
+44.38333333,-98.21666667,Huron AP,Huron AP,608
+43.68333333,-98.01666667,Mitchell,Mitchell,609
+44.38333333,-100.2833333,Pierre AP,Pierre AP,610
+44.05,-103.0666667,Rapid City AP (S),Rapid City AP (S),611
+43.56666667,-96.73333333,Sioux Falls AP,Sioux Falls AP,612
+44.91666667,-97.15,Watertown AP,Watertown AP,613
+42.91666667,-97.38333333,Yankton,Yankton,614
+35.43333333,-84.58333333,Athens,Athens,615
+36.48333333,-82.4,Bristol-Tri City AP,Bristol-Tri City AP,616
+35.03333333,-85.2,Chattanooga AP,Chattanooga AP,617
+36.55,-87.36666667,Clarksville,Clarksville,618
+35.63333333,-87.03333333,Columbia,Columbia,619
+36.01666667,-89.4,Dyersburg,Dyersburg,620
+36.06666667,-82.83333333,Greenville,Greenville,621
+35.6,-88.91666667,Jackson AP,Jackson AP,622
+35.81666667,-83.98333333,Knoxville AP,Knoxville AP,623
+35.05,-90,Memphis AP,Memphis AP,624
+34.91666667,-86.46666667,Murfreesboro,Murfreesboro,625
+36.11666667,-86.68333333,Nashville AP (S),Nashville AP (S),626
+35.38333333,-86.08333333,Tullahoma,Tullahoma,627
+32.41666667,-99.68333333,Abilene AP,Abilene AP,628
+27.73333333,-98.03333333,Alice AP,Alice AP,629
+35.23333333,-100.7,Amarillo AP,Amarillo AP,630
+30.3,-97.7,Austin AP,Austin AP,631
+29,-95.96666667,Bay City,Bay City,632
+29.95,-94.01666667,Beaumont,Beaumont,633
+28.36666667,-97.66666667,Beeville,Beeville,634
+32.3,-101.45,Big Spring AP (S),Big Spring AP (S),635
+25.9,-97.43333333,Brownsville AP (S),Brownsville AP (S),636
+31.8,-98.95,Brownwood,Brownwood,637
+30.66666667,-96.55,Bryan AP,Bryan AP,638
+27.76666667,-97.5,Corpus Christi AP,Corpus Christi AP,639
+32.08333333,-96.46666667,Corsicana,Corsicana,640
+32.85,-96.85,Dallas AP,Dallas AP,641
+29.36666667,-100.7833333,"Del Rio, Laughlin AFB","Del Rio, Laughlin AFB",642
+33.2,-97.1,Denton,Denton,643
+28.86666667,-100.5333333,Eagle Pass,Eagle Pass,644
+31.8,-106.4,El Paso AP (S),El Paso AP (S),645
+32.83333333,-97.05,Fort Worth AP (S),Fort Worth AP (S),646
+29.3,-94.8,Galveston AP,Galveston AP,647
+33.06666667,-96.05,Greenville,Greenville,648
+26.23333333,-97.65,Harlingen,Harlingen,649
+29.96666667,-95.35,Houston AP,Houston AP,650
+29.98333333,-95.36666667,Houston Co,Houston Co,651
+30.71666667,-95.55,Huntsville,Huntsville,652
+31.08333333,-97.68333333,"Killeen, Robert Gray AAF","Killeen, Robert Gray AAF",653
+32.7,-101.9333333,Lamesa,Lamesa,654
+27.53333333,-99.45,Laredo AFB,Laredo AFB,655
+32.46666667,-94.73333333,Longview,Longview,656
+33.65,-101.8166667,Lubbock AP,Lubbock AP,657
+31.41666667,-94.8,Lufkin AP,Lufkin AP,658
+26.2,-98.21666667,Mcallen,Mcallen,659
+31.95,-102.1833333,Midland AP (S),Midland AP (S),660
+32.78333333,-98.06666667,Mineral Wells AP,Mineral Wells AP,661
+31.78333333,-95.63333333,Palestine Co,Palestine Co,662
+35.53333333,-100.9833333,Pampa,Pampa,663
+31.41666667,-103.5,Pecos,Pecos,664
+34.18333333,-101.7,Plainview,Plainview,665
+29.95,-94.01666667,Port Arthur AP,Port Arthur AP,666
+31.45,-100.45,San Angelo,San Angelo,667
+31.43333333,-100.4,Goodfellow AFB,Goodfellow AFB,668
+29.53333333,-98.46666667,San Antonio AP (S),San Antonio AP (S),669
+33.71666667,-96.66666667,"Sherman, Perrin AFB","Sherman, Perrin AFB",670
+32.71666667,-100.9166667,Snyder,Snyder,671
+31.1,-97.35,Temple,Temple,672
+32.35,-95.26666667,Tyler AP,Tyler AP,673
+34.16666667,-99.3,Vernon,Vernon,674
+28.85,-96.91666667,Victoria AP,Victoria AP,675
+31.61666667,-97.21666667,Waco AP,Waco AP,676
+33.96666667,-98.48333333,Wichita Falls AP,Wichita Falls AP,677
+37.7,-113.1,Cedar City AP,Cedar City AP,678
+41.75,-111.8166667,Logan,Logan,679
+38.6,-109.6,Moab,Moab,680
+41.2,-112.0166667,Ogden AP,Ogden AP,681
+39.61666667,-110.8333333,Price,Price,682
+40.21666667,-111.7166667,Provo,Provo,683
+38.76666667,-112.0833333,Richfield,Richfield,684
+37.03333333,-113.5166667,St George Co,St George Co,685
+40.76666667,-111.9666667,Salt Lake City AP (S),Salt Lake City AP (S),686
+40.45,-109.5166667,Vernal AP,Vernal AP,687
+44.2,-72.51666667,Barre,Barre,688
+44.46666667,-73.15,Burlington AP (S),Burlington AP (S),689
+43.6,-72.96666667,Rutland,Rutland,690
+38.03333333,-78.51666667,Charlottesville,Charlottesville,691
+36.56666667,-79.33333333,Danville AP,Danville AP,692
+38.3,-77.46666667,Fredericksburg,Fredericksburg,693
+38.45,-78.9,Harrisonburg,Harrisonburg,694
+37.33333333,-79.2,Lynchburg AP,Lynchburg AP,695
+36.9,-76.2,Norfolk AP,Norfolk AP,696
+37.18333333,-77.51666667,Petersburg,Petersburg,697
+37.5,-77.33333333,Richmond AP,Richmond AP,698
+37.31666667,-79.96666667,Roanoke AP,Roanoke AP,699
+38.26666667,-78.9,Staunton,Staunton,700
+39.2,-78.16666667,Winchester,Winchester,701
+46.98333333,-123.8166667,Aberdeen,Aberdeen,702
+48.8,-122.5333333,Bellingham AP,Bellingham AP,703
+47.56666667,-122.6666667,Bremerton,Bremerton,704
+47.03333333,-120.5166667,Ellensburg AP,Ellensburg AP,705
+47.91666667,-122.2833333,"Everett, Paine AFB","Everett, Paine AFB",706
+46.21666667,-119.1333333,Kennewick,Kennewick,707
+46.16666667,-122.9333333,Longview,Longview,708
+47.2,-119.3166667,"Moses Lake, Larson AFB","Moses Lake, Larson AFB",709
+46.96666667,-122.9,Olympia AP,Olympia AP,710
+48.11666667,-123.4333333,Port Angeles,Port Angeles,711
+47.53333333,-122.3,Seattle-Boeing Field,Seattle-Boeing Field,712
+47.65,-122.3,Seattle Co (S),Seattle Co (S),713
+47.45,-122.3,Seattle-Tacoma AP (S),Seattle-Tacoma AP (S),714
+47.63333333,-117.5166667,Spokane AP (S),Spokane AP (S),715
+47.25,-122.5,"Tacoma, McChord AFB","Tacoma, McChord AFB",716
+46.1,-118.2833333,Walla Walla AP,Walla Walla AP,717
+47.41666667,-120.3166667,Wenatchee,Wenatchee,718
+46.56666667,-120.5333333,Yakima AP,Yakima AP,719
+37.78333333,-81.11666667,Beckley,Beckley,720
+37.3,-81.21666667,Bluefield AP,Bluefield AP,721
+38.36666667,-81.6,Charleston AP,Charleston AP,722
+39.26666667,-80.35,Clarksburg,Clarksburg,723
+38.88333333,-79.85,Elkins AP,Elkins AP,724
+38.41666667,-82.5,Huntington Co,Huntington Co,725
+39.4,-77.98333333,Martinsburg AP,Martinsburg AP,726
+39.65,-79.91666667,Morgantown AP,Morgantown AP,727
+39.26666667,-81.56666667,Parkersburg Co,Parkersburg Co,728
+40.11666667,-80.7,Wheeling,Wheeling,729
+44.25,-88.38333333,Appleton,Appleton,730
+46.56666667,-90.96666667,Ashland,Ashland,731
+42.5,-89.03333333,Beloit,Beloit,732
+44.86666667,-91.48333333,Eau Claire AP,Eau Claire AP,733
+43.8,-88.45,Fond Du Lac,Fond Du Lac,734
+44.48333333,-88.13333333,Green Bay AP,Green Bay AP,735
+43.86666667,-91.25,La Crosse AP,La Crosse AP,736
+43.13333333,-89.33333333,Madison AP (S),Madison AP (S),737
+44.1,-87.68333333,Manitowoc,Manitowoc,738
+45.1,-87.63333333,Marinette,Marinette,739
+42.95,-87.9,Milwaukee AP,Milwaukee AP,740
+42.71666667,-87.85,Racine,Racine,741
+43.75,-87.71666667,Sheboygan,Sheboygan,742
+44.5,-89.56666667,Stevens Point,Stevens Point,743
+43.01666667,-88.23333333,Waukesha,Waukesha,744
+44.91666667,-89.61666667,Wausau AP,Wausau AP,745
+42.91666667,-106.4666667,Casper AP,Casper AP,746
+41.15,-104.8166667,Cheyenne,Cheyenne,747
+44.55,-109.0666667,Cody AP,Cody AP,748
+41.26666667,-110.95,Evanston,Evanston,749
+42.81666667,-108.7333333,Lander AP (S),Lander AP (S),750
+41.31666667,-105.6833333,Laramie AP (S),Laramie AP (S),751
+43.85,-104.2166667,Newcastle,Newcastle,752
+41.8,-107.2,Rawlins,Rawlins,753
+41.6,-109,Rock Springs AP,Rock Springs AP,754
+44.76666667,-106.9666667,Sheridan AP,Sheridan AP,755
+42.08333333,-104.2166667,Torrington,Torrington,756

@@ -1,0 +1,15 @@
+|Lab2
+outAND <= inst.DB_MAX_OUTPUT_PORT_TYPE
+inputA => inst.IN0
+inputA => inst2.IN1
+inputA => inst3.IN1
+inputA => inst4.IN1
+inputB => inst.IN1
+inputB => inst2.IN0
+inputB => inst3.IN0
+inputB => inst4.IN0
+outNAND <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+outOR <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+outNOR <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+

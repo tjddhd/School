@@ -1,0 +1,57 @@
+m255
+K3
+13
+cModel Technology
+dS:\Cpe112\Lab6
+Elab7_1
+Z0 w1317842358
+Z1 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+Z2 dS:\Cpe112\Lab7
+Z3 8S:/Cpe112/Lab7/Lab7_1.vhd
+Z4 FS:/Cpe112/Lab7/Lab7_1.vhd
+l0
+L24
+VL_85XRN8@;nCBCmfQCDWe3
+Z5 OV;C;6.6c;45
+32
+Z6 o-work work -2002 -explicit -O0
+Z7 tExplicit 1
+!s100 GP=7NNFO85iif2jih[ng61
+Abdf_type
+R1
+DEx4 work 6 lab7_1 0 22 L_85XRN8@;nCBCmfQCDWe3
+l43
+L35
+VZ7YO8QRSDk7oAd4TlIL[L1
+!s100 7[WUGGgULJgPSJ=Ac1cR_1
+R5
+32
+Z8 Mx1 4 ieee 14 std_logic_1164
+R6
+R7
+Elab7_4
+Z9 w1317842348
+R1
+R2
+Z10 8S:/Cpe112/Lab7/Lab7_4.vhd
+Z11 FS:/Cpe112/Lab7/Lab7_4.vhd
+l0
+L24
+V2QmFdgIEe4?:@U3l>@YB^1
+!s100 jeT`kIlX=k0Ib@PKzchDW1
+R5
+32
+R6
+R7
+Abdf_type
+R1
+Z12 DEx4 work 6 lab7_4 0 22 2QmFdgIEe4?:@U3l>@YB^1
+l52
+L35
+Z13 VkT7mhDG`bIHmfPmLd;A]e1
+Z14 !s100 OOCKPCMD[ZF4QnKo2^MXG3
+R5
+32
+R8
+R6
+R7

@@ -1,0 +1,69 @@
+A51 MACRO ASSEMBLER  BUZZER                                                               03/12/2012 16:56:03 PAGE     1
+
+
+MACRO ASSEMBLER A51 V8.01
+OBJECT MODULE PLACED IN .\buzzer.obj
+ASSEMBLER INVOKED BY: C:\Keil8051\C51\BIN\A51.EXE \\minerfiles.mst.edu\dfs\Users\tjddhd\Downloads\buzzer.a51 SET(SMALL) 
+                      DEBUG PRINT(.\buzzer.lst) OBJECT(.\buzzer.obj) EP
+
+LOC  OBJ            LINE     SOURCE
+
+----                   1     cseg at 0x00
+                       2     
+                       3     
+0000 759100            4     mov 0x91, #0
+                       5     
+                       6     
+0003                   7     loop:
+0003 C297              8             clr p1.7
+0005 8004              9             sjmp DelayB
+0007                  10     Re:
+0007 D297             11             setb p1.7
+0009 800A             12             sjmp DelayA
+                      13     
+000B                  14     DelayB:
+000B 790F             15             mov r1, #0fh
+000D                  16     Tractor:
+000D 7A88             17             mov r2, #136
+                      18     
+000F                  19     Here:
+000F DAFE             20             djnz r2, Here
+0011 D9FA             21             djnz r1, Tractor        
+0013 80F2             22             sjmp Re 
+                      23     
+                      24     
+0015                  25     DelayA:
+0015 790F             26             mov r1, #0fh
+0017                  27     Trac:
+0017 7A88             28             mov r2, #136
+                      29     
+0019                  30     Hi:
+0019 DAFE             31             djnz r2, Hi
+001B D9FA             32             djnz r1, Trac
+001D 80E4             33             sjmp loop
+                      34             
+                      35                     
+                      36     end
+A51 MACRO ASSEMBLER  BUZZER                                                               03/12/2012 16:56:03 PAGE     2
+
+SYMBOL TABLE LISTING
+------ ----- -------
+
+
+N A M E             T Y P E  V A L U E   ATTRIBUTES
+
+DELAYA . . . . . .  C ADDR   0015H   A   
+DELAYB . . . . . .  C ADDR   000BH   A   
+HERE . . . . . . .  C ADDR   000FH   A   
+HI . . . . . . . .  C ADDR   0019H   A   
+LOOP . . . . . . .  C ADDR   0003H   A   
+P1 . . . . . . . .  D ADDR   0090H   A   
+RE . . . . . . . .  C ADDR   0007H   A   
+TRAC . . . . . . .  C ADDR   0017H   A   
+TRACTOR. . . . . .  C ADDR   000DH   A   
+
+
+REGISTER BANK(S) USED: 0 
+
+
+ASSEMBLY COMPLETE.  0 WARNING(S), 0 ERROR(S)

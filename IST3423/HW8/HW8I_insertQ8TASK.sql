@@ -1,0 +1,8 @@
+INSERT INTO HW8I_Q8_TASK VALUES (
+	10, 'Jones', 'James', '573-341-1234', 20, 'BLDG', 'JMM-1', '01-Jan-06', 0.0 );
+INSERT INTO HW8I_Q8_TASK VALUES (
+	20, 'Smith', 'Amy', '573-341-1235', 20, 'BLDG', 'JMM-1', '01-Jan-07', 0.0 );
+INSERT INTO HW8I_Q8_TASK VALUES (
+	30, 'Burgh', 'Wanda', '573-341-1236', 20, 'TOWR', 'JMM-2', '01-Jan-08', 0.0 );
+INSERT INTO HW8I_Q8_TASK VALUES (
+	40, 'Place', 'Anita', '573-341-1236', 20, 'POST', 'JMM-3', '01-Jan-09', 0.0 );

@@ -1,0 +1,29 @@
+INSERT INTO HW7I_EMPLOYEE VALUES(
+	12345, 'Jones', 'James', 'Jones@MyCorp.com');
+	
+	
+	
+	
+UPDATE HW7I_EMPLOYEE
+	SET		LastName = 'Smith'
+	WHERE	LastName = 'Jones';
+	
+	
+	
+DELETE FROM		HW7I_PROJECT
+WHERE			ProjectName = 'BLUE';
+
+
+
+
+DELETE FROM		HW7I_EMPLOYEE
+WHERE			LastName = 'Smith';
+
+
+
+
+SELECT		*
+FROM		HW7I_PROJECT JOIN HW7I_ASSIGNMENT
+		ON	HW7I_PROJECT.ProjectName = HW7I_ASSIGNMENT.ProjectName
+			JOIN HW7I_EMPLOYEE
+			ON HW7I_ASSINGMENT.EmpNumber = HW7I_EMPLOYEE.EmpNumber;

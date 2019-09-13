@@ -1,0 +1,2 @@
+driver.o: driver.cpp myvector.h myvector.hpp matrix.h matrix.hpp
+matrix.o: matrix.cpp myvector.h myvector.hpp matrix.h matrix.hpp

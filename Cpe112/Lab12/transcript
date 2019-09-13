@@ -1,0 +1,48 @@
+# Compile of Counter.vhd was successful.
+vsim -voptargs=+acc work.counter
+# vsim -voptargs=+acc work.counter 
+# //  ModelSim ALTERA 6.6c Aug 24 2010 
+# //
+# //  Copyright 1991-2010 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading work.counter(bdf_type)
+add wave sim:/counter/line__67/*
+# (vish-4014) No objects found matching '/counter/line__67/*'.
+add wave sim:/counter/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by:   Hostname:   ProcessID: 1
+#           Attempting to use alternate WLF file "./wlftmass7r".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftmass7r
+force -freeze sim:/counter/inputx 0 0, 1 {400 ps} -r 800
+force -freeze sim:/counter/clk 0 0, 1 {50 ps} -r 100
+force -freeze sim:/counter/rst 1 0
+run 100000 ps
+force -freeze sim:/counter/rst 0 0
+run 100000 ps
+run 200000 ps
+vsim work.counter
+# vsim work.counter 
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading work.counter(bdf_type)
+add wave sim:/counter/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by:   Hostname:   ProcessID: 1
+#           Attempting to use alternate WLF file "./wlft6w468w".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft6w468w
+force -freeze sim:/counter/inputx 1 0, 0 {400 ps} -r 800
+force -freeze sim:/counter/clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/counter/rst 0 0
+run 200000 ps
+force -freeze sim:/counter/rst 1 0
+run 200000 ps

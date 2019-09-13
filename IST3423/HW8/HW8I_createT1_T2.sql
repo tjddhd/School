@@ -1,0 +1,18 @@
+CREATE TABLE HW8I_T1 (
+	Key1			Int			NOT NULL,
+	A			Number(3,0)		NULL,
+	B			Number(4,1)		NULL,
+	CONSTRAINT		HW8I_T1_PK		PRIMARY KEY (Key1)
+	);
+
+CREATE TABLE HW8I_T2 (
+	Key2			Int			NOT NULL,
+	A			Number(3,0)		NULL,
+	B			Number(4,1)		NULL,
+	C			Number(3,0)		NULL,
+	D			Number(4,1)		NULL,
+	E			Int			NOT NULL,
+	CONSTRAINT		HW8I_T2_PK		PRIMARY KEY (Key2),
+	CONSTRAINT		HW8I_T2_FK		FOREIGN KEY (E)
+							REFERENCES HW8I_T1 (Key1)
+	);

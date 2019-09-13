@@ -1,0 +1,28 @@
+S:/Cpe112/Lab8/FA_4bit-tb.vhd {1 {vcom -work work -2002 -explicit {S:\Cpe112\Lab8\FA_4bit-tb.vhd}
+Model Technology ModelSim ALTERA vcom 6.6c Compiler 2010.08 Aug 24 2010
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Compiling entity tb_rca
+-- Compiling architecture testbench of tb_rca
+-- Compiling configuration cfg_tb_rca
+-- Loading entity tb_rca
+-- Loading architecture testbench of tb_rca
+-- Loading entity rca
+
+} {} {}} S:/Cpe112/Lab8/FA_4bit.vhd {1 {vcom -work work -2002 -explicit {S:\Cpe112\Lab8\FA_4bit.vhd}
+Model Technology ModelSim ALTERA vcom 6.6c Compiler 2010.08 Aug 24 2010
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity rca
+-- Compiling architecture struct_rca of rca
+
+} {} {}} S:/Cpe112/Lab8/FA_1bit.vhd {1 {vcom -work work -2002 -explicit S:/Cpe112/Lab8/FA_1bit.vhd
+Model Technology ModelSim ALTERA vcom 6.6c Compiler 2010.08 Aug 24 2010
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity fa
+-- Compiling architecture df_fa of fa
+
+} {} {}}

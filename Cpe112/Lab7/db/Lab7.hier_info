@@ -1,0 +1,73 @@
+|Lab7_4
+CarryOut <= Lab7_1:Adder4.CarryOut
+A[0] => Lab7_1:Adder1.A
+A[1] => Lab7_1:Adder2.A
+A[2] => Lab7_1:Adder3.A
+A[3] => Lab7_1:Adder4.A
+B[0] => Lab7_1:Adder1.B
+B[1] => Lab7_1:Adder2.B
+B[2] => Lab7_1:Adder3.B
+B[3] => Lab7_1:Adder4.B
+CarryIn => Lab7_1:Adder1.CarryIn
+Sum[0] <= Lab7_1:Adder1.Sum
+Sum[1] <= Lab7_1:Adder2.Sum
+Sum[2] <= Lab7_1:Adder3.Sum
+Sum[3] <= Lab7_1:Adder4.Sum
+
+
+|Lab7_4|Lab7_1:Adder4
+Sum <= XOR2.DB_MAX_OUTPUT_PORT_TYPE
+A => XOR1.IN0
+A => AND2.IN0
+A => AND3.IN0
+B => XOR1.IN1
+B => AND2.IN1
+B => AND1.IN0
+CarryIn => XOR2.IN1
+CarryIn => AND3.IN1
+CarryIn => AND1.IN1
+CarryOut <= OR.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab7_4|Lab7_1:Adder3
+Sum <= XOR2.DB_MAX_OUTPUT_PORT_TYPE
+A => XOR1.IN0
+A => AND2.IN0
+A => AND3.IN0
+B => XOR1.IN1
+B => AND2.IN1
+B => AND1.IN0
+CarryIn => XOR2.IN1
+CarryIn => AND3.IN1
+CarryIn => AND1.IN1
+CarryOut <= OR.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab7_4|Lab7_1:Adder2
+Sum <= XOR2.DB_MAX_OUTPUT_PORT_TYPE
+A => XOR1.IN0
+A => AND2.IN0
+A => AND3.IN0
+B => XOR1.IN1
+B => AND2.IN1
+B => AND1.IN0
+CarryIn => XOR2.IN1
+CarryIn => AND3.IN1
+CarryIn => AND1.IN1
+CarryOut <= OR.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab7_4|Lab7_1:Adder1
+Sum <= XOR2.DB_MAX_OUTPUT_PORT_TYPE
+A => XOR1.IN0
+A => AND2.IN0
+A => AND3.IN0
+B => XOR1.IN1
+B => AND2.IN1
+B => AND1.IN0
+CarryIn => XOR2.IN1
+CarryIn => AND3.IN1
+CarryIn => AND1.IN1
+CarryOut <= OR.DB_MAX_OUTPUT_PORT_TYPE
+
+

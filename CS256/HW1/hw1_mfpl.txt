@@ -1,0 +1,12 @@
+let ( some lambda input + -1234 %what about this?
+*/- 0123 99 + x _underscore_this) &&^
+% yet another comment
+print if flex 203978 -2 + "30x+" % !
+1+2
+3 + 4
+-5+ 6
+"a
+bc"
+7
+
+

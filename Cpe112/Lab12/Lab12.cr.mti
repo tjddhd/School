@@ -1,0 +1,8 @@
+S:/Cpe112/Lab12/Counter.vhd {1 {vcom -work work -2002 -explicit S:/Cpe112/Lab12/Counter.vhd
+Model Technology ModelSim ALTERA vcom 6.6c Compiler 2010.08 Aug 24 2010
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity counter
+-- Compiling architecture bdf_type of counter
+
+} {} {}}

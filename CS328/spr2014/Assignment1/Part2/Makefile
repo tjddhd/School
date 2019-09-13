@@ -1,0 +1,41 @@
+#######################################
+# Name:       Thomas Dolan
+# Class:      CS328
+# Professor:  Clayton Price
+# Assignment: 1
+# File name:  makefile2.txt
+# Semester:   Spring 2014
+#######################################
+
+CXX = /usr/bin/g++
+FLAGS = -W -Wall -s -pedantic-errors
+OBJECTS = driver.o\
+          parser.o\
+          scanner.o\
+          signal.o\
+          token.o\
+          tokenlist.o
+
+.SUFFIXES: .cpp
+
+.cpp.o: $<
+	${CXX} -c ${FLAGS} $< -o $@
+
+default: all
+
+all: driver
+
+driver: ${OBJECTS}
+	${CXX} ${FLAGS} ${OBJECTS} -o $@
+
+clean:
+	-@rm -f core > /dev/null 2>&1
+	-@rm -f driver > /dev/null 2>&1
+	-@rm -f ${OBJECTS} > /dev/null 2>&1
+
+driver.o: driver.cpp signal.h parser.h tokenlist.h token.h enTokens.h Amatrix.h Avector.h scanner.h enChar.h
+parser.o: parser.cpp parser.h tokenlist.h token.h enTokens.h Amatrix.h Avector.h signal.h
+scanner.o: scanner.cpp scanner.h enChar.h tokenlist.h token.h enTokens.h signal.h
+signal.o: signal.cpp signal.h
+token.o: token.cpp token.h enTokens.h
+tokenlist.o: tokenlist.cpp tokenlist.h token.h enTokens.h signal.h

@@ -1,0 +1,129 @@
+SELECT * 
+FROM HW2G_CUSTOMER;
+
+SELECT * 
+FROM HW2G_C_ORDER;
+
+SELECT * 
+FROM HW2G_ORDER_ITEM;
+
+------------------------------
+
+SELECT Phone,LastName 
+FROM HW2G_CUSTOMER;
+
+------------------------------
+
+SELECT Phone,LastName
+FROM HW2G_CUSTOMER
+WHERE FirstName='Nikki';
+
+------------------------------
+
+SELECT CustomerID,DateIn,DateOut
+FROM HW2G_C_ORDER
+WHERE TotalAmount > 100;
+
+------------------------------
+
+SELECT Phone,FirstName
+FROM HW2G_CUSTOMER
+WHERE FirstName LIKE 'B%';
+
+------------------------------
+
+SELECT Phone,FirstName
+FROM HW2G_CUSTOMER
+WHERE LastName LIKE '%cat%'
+   OR
+      LastName LIKE '%Cat%';
+   
+------------------------------
+
+SELECT Phone,FirstName,LastName
+FROM HW2G_CUSTOMER
+WHERE Phone LIKE '_23%';
+
+------------------------------
+
+SELECT MAX(TotalAmount) AS MaxAmount,
+       MIN(TotalAmount) AS MinAmount
+FROM HW2G_C_ORDER;
+
+------------------------------
+
+SELECT AVG(TotalAmount) AS AvgAmount
+FROM HW2G_C_ORDER;
+
+------------------------------
+
+SELECT COUNT(*) AS NumCustomers
+FROM HW2G_CUSTOMER;
+
+------------------------------
+
+SELECT LastName,FirstName
+FROM HW2G_CUSTOMER
+GROUP BY LastName,FirstName;
+
+------------------------------
+
+SELECT LastName,FirstName,COUNT(*) AS NumNamed
+FROM HW2G_CUSTOMER
+GROUP BY LastName,FirstName;
+
+------------------------------
+
+SELECT FirstName,LastName
+FROM HW2G_CUSTOMER
+WHERE CustomerID IN (
+	SELECT CustomerID 
+	FROM HW2G_C_ORDER
+	WHERE TotalAmount > 100)
+ORDER BY LastName,FirstName DESC;
+
+------------------------------
+
+SELECT HW2G_CUSTOMER.FirstName,HW2G_CUSTOMER.LastName
+FROM HW2G_CUSTOMER,HW2G_C_ORDER
+WHERE HW2G_CUSTOMER.CustomerID =
+	  HW2G_C_ORDER.CustomerID
+  AND
+	  HW2G_C_ORDER.TotalAmount > 100
+ORDER BY LastName,FirstName DESC;
+
+------------------------------
+SELECT FirstName,LastName
+FROM HW2G_CUSTOMER
+WHERE CustomerID IN (
+	SELECT CustomerID
+	FROM HW2G_C_ORDER
+	WHERE InvoiceNumber IN (
+		SELECT InvoiceNumber
+		FROM HW2G_ORDER_ITEM
+		WHERE Item='Dress Shirt'))
+ORDER BY LastName,FirstName DESC;
+
+------------------------------
+
+SELECT HW2G_CUSTOMER.FirstName,HW2G_CUSTOMER.LastName
+FROM HW2G_CUSTOMER,HW2G_C_ORDER,HW2G_ORDER_ITEM
+WHERE HW2G_CUSTOMER.CustomerID = HW2G_C_ORDER.CustomerID
+  AND
+      HW2G_C_ORDER.InvoiceNumber = HW2G_ORDER_ITEM.InvoiceNumber
+  AND
+      HW2G_ORDER_ITEM.Item='Dress Shirt'
+ORDER BY HW2G_CUSTOMER.LastName,HW2G_CUSTOMER.FirstName DESC;
+
+------------------------------
+
+SELECT HW2G_CUSTOMER.FirstName,HW2G_CUSTOMER.LastName,HW2G_C_ORDER.TotalAmount
+FROM HW2G_CUSTOMER,HW2G_C_ORDER
+WHERE HW2G_CUSTOMER.CustomerID = HW2G_C_ORDER.CustomerID
+  AND HW2G_C_ORDER.InvoiceNumber IN (
+		SELECT InvoiceNumber
+		FROM HW2G_ORDER_ITEM
+		WHERE Item='Dress Shirt')
+ORDER BY HW2G_CUSTOMER.LastName,HW2G_CUSTOMER.FirstName DESC;
+
+------------------------------

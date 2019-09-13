@@ -1,0 +1,68 @@
+S:/Cpe112/Lab10-11-solns/Bit4Sel.vhd {1 {vcom -work work -2002 -explicit S:/Cpe112/Lab10-11-solns/Bit4Sel.vhd
+Model Technology ModelSim ALTERA vcom 6.6c Compiler 2010.08 Aug 24 2010
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity bit4sel
+-- Compiling architecture bdf_type of bit4sel
+
+} {} {}} S:/Cpe112/Lab10-11-solns/Accumulator.vhd {2 {vcom -work work -2002 -explicit S:/Cpe112/Lab10-11-solns/Accumulator.vhd
+Model Technology ModelSim ALTERA vcom 6.6c Compiler 2010.08 Aug 24 2010
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity accumulator
+-- Compiling architecture bdf_type of accumulator
+** Warning: S:/Cpe112/Lab10-11-solns/Accumulator.vhd(103): Duplicate signals in sensitivity list.
+** Warning: S:/Cpe112/Lab10-11-solns/Accumulator.vhd(115): Duplicate signals in sensitivity list.
+** Warning: S:/Cpe112/Lab10-11-solns/Accumulator.vhd(127): Duplicate signals in sensitivity list.
+** Warning: S:/Cpe112/Lab10-11-solns/Accumulator.vhd(139): Duplicate signals in sensitivity list.
+
+} {} {}} S:/Cpe112/Lab10-11-solns/Fulladd.vhd {1 {vcom -work work -2002 -explicit S:/Cpe112/Lab10-11-solns/Fulladd.vhd
+Model Technology ModelSim ALTERA vcom 6.6c Compiler 2010.08 Aug 24 2010
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity fulladd
+-- Compiling architecture bdf_type of fulladd
+
+} {} {}} S:/Cpe112/Lab10-11-solns/Lab10.vhd {1 {vcom -work work -2002 -explicit S:/Cpe112/Lab10-11-solns/Lab10.vhd
+Model Technology ModelSim ALTERA vcom 6.6c Compiler 2010.08 Aug 24 2010
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity lab10
+-- Compiling architecture bdf_type of lab10
+
+} {} {}} S:/Cpe112/Lab10-11-solns/Bit2Sel.vhd {1 {vcom -work work -2002 -explicit S:/Cpe112/Lab10-11-solns/Bit2Sel.vhd
+Model Technology ModelSim ALTERA vcom 6.6c Compiler 2010.08 Aug 24 2010
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity bit2sel
+-- Compiling architecture bdf_type of bit2sel
+
+} {} {}} S:/Cpe112/Lab10-11-solns/LE.vhd {1 {vcom -work work -2002 -explicit S:/Cpe112/Lab10-11-solns/LE.vhd
+Model Technology ModelSim ALTERA vcom 6.6c Compiler 2010.08 Aug 24 2010
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity le
+-- Compiling architecture bdf_type of le
+
+} {} {}} S:/Cpe112/Lab10-11-solns/Selector.vhd {1 {vcom -work work -2002 -explicit S:/Cpe112/Lab10-11-solns/Selector.vhd
+Model Technology ModelSim ALTERA vcom 6.6c Compiler 2010.08 Aug 24 2010
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity selector
+-- Compiling architecture bdf_type of selector
+
+} {} {}} S:/Cpe112/Lab10-11-solns/AE.vhd {1 {vcom -work work -2002 -explicit S:/Cpe112/Lab10-11-solns/AE.vhd
+Model Technology ModelSim ALTERA vcom 6.6c Compiler 2010.08 Aug 24 2010
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity ae
+-- Compiling architecture bdf_type of ae
+
+} {} {}} S:/Cpe112/Lab10-11-solns/ALU.vhd {1 {vcom -work work -2002 -explicit S:/Cpe112/Lab10-11-solns/ALU.vhd
+Model Technology ModelSim ALTERA vcom 6.6c Compiler 2010.08 Aug 24 2010
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity alu
+-- Compiling architecture bdf_type of alu
+
+} {} {}}

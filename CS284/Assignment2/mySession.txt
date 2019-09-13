@@ -1,0 +1,6 @@
+Script started on Fri 22 Mar 2013 11:49:10 PM CDT
+gtjddhd@rc03xcs213:~/CS284/Assignment2$ gcc main.c -lpthread
+tjddhd@rc03xcs213:~/CS284/Assignment2$ exit
+exit
+
+Script done on Fri 22 Mar 2013 11:49:32 PM CDT

@@ -1,0 +1,351 @@
+|Lab10
+cout <= ALU:inst1.COUT
+S2 => ALU:inst1.S2
+M => ALU:inst1.M
+S3 => ALU:inst1.S3
+S => Selector:inst.S
+Input[0] => Selector:inst.Input[0]
+Input[1] => Selector:inst.Input[1]
+Input[2] => Selector:inst.Input[2]
+Input[3] => Selector:inst.Input[3]
+IL => Accumulator:inst3.IL
+IR => Accumulator:inst3.IR
+S0 => Accumulator:inst3.S0
+S1 => Accumulator:inst3.S1
+Clk => Accumulator:inst3.Clk
+op[0] <= Accumulator:inst3.Y[0]
+op[1] <= Accumulator:inst3.Y[1]
+op[2] <= Accumulator:inst3.Y[2]
+op[3] <= Accumulator:inst3.Y[3]
+
+
+|Lab10|ALU:inst1
+COUT <= Fulladd:inst15.CY
+A[0] => LE:inst5.A
+A[1] => LE:inst7.A
+A[2] => LE:inst10.A
+A[3] => LE:inst13.A
+B[0] => LE:inst5.B
+B[0] => AE:inst6.B
+B[1] => LE:inst7.B
+B[1] => AE:inst8.B
+B[2] => LE:inst10.B
+B[2] => AE:inst11.B
+B[3] => LE:inst13.B
+B[3] => AE:inst14.B
+S2 => LE:inst13.S2
+S2 => AE:inst14.S2
+S2 => LE:inst10.S2
+S2 => AE:inst11.S2
+S2 => LE:inst7.S2
+S2 => AE:inst8.S2
+S2 => LE:inst5.S2
+S2 => AE:inst6.S2
+S3 => LE:inst13.S3
+S3 => AE:inst14.S3
+S3 => LE:inst10.S3
+S3 => AE:inst11.S3
+S3 => LE:inst7.S3
+S3 => AE:inst8.S3
+S3 => LE:inst5.S3
+S3 => AE:inst6.S3
+S3 => inst4.IN1
+M => LE:inst13.M
+M => AE:inst14.M
+M => LE:inst10.M
+M => AE:inst11.M
+M => LE:inst7.M
+M => AE:inst8.M
+M => LE:inst5.M
+M => AE:inst6.M
+M => inst4.IN0
+F[0] <= Fulladd:inst.S
+F[1] <= Fulladd:inst9.S
+F[2] <= Fulladd:inst12.S
+F[3] <= Fulladd:inst15.S
+
+
+|Lab10|ALU:inst1|Fulladd:inst15
+S <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst6.IN1
+B => inst.IN1
+B => inst6.IN0
+C => inst3.IN1
+C => inst5.IN0
+CY <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab10|ALU:inst1|LE:inst13
+Q <= inst10.DB_MAX_OUTPUT_PORT_TYPE
+S3 => inst8.IN0
+S3 => inst6.IN2
+S3 => inst2.IN0
+A => inst8.IN1
+A => inst4.IN0
+A => inst7.IN1
+A => inst9.IN1
+B => inst6.IN0
+B => inst7.IN0
+S2 => inst6.IN1
+S2 => inst.IN0
+S2 => inst7.IN2
+M => inst3.IN0
+M => inst9.IN0
+
+
+|Lab10|ALU:inst1|AE:inst14
+P <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+B => inst3.IN0
+B => inst6.IN0
+S3 => inst5.IN0
+M => inst3.IN2
+M => inst.IN2
+S2 => inst4.IN0
+
+
+|Lab10|ALU:inst1|Fulladd:inst12
+S <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst6.IN1
+B => inst.IN1
+B => inst6.IN0
+C => inst3.IN1
+C => inst5.IN0
+CY <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab10|ALU:inst1|LE:inst10
+Q <= inst10.DB_MAX_OUTPUT_PORT_TYPE
+S3 => inst8.IN0
+S3 => inst6.IN2
+S3 => inst2.IN0
+A => inst8.IN1
+A => inst4.IN0
+A => inst7.IN1
+A => inst9.IN1
+B => inst6.IN0
+B => inst7.IN0
+S2 => inst6.IN1
+S2 => inst.IN0
+S2 => inst7.IN2
+M => inst3.IN0
+M => inst9.IN0
+
+
+|Lab10|ALU:inst1|AE:inst11
+P <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+B => inst3.IN0
+B => inst6.IN0
+S3 => inst5.IN0
+M => inst3.IN2
+M => inst.IN2
+S2 => inst4.IN0
+
+
+|Lab10|ALU:inst1|Fulladd:inst9
+S <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst6.IN1
+B => inst.IN1
+B => inst6.IN0
+C => inst3.IN1
+C => inst5.IN0
+CY <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab10|ALU:inst1|LE:inst7
+Q <= inst10.DB_MAX_OUTPUT_PORT_TYPE
+S3 => inst8.IN0
+S3 => inst6.IN2
+S3 => inst2.IN0
+A => inst8.IN1
+A => inst4.IN0
+A => inst7.IN1
+A => inst9.IN1
+B => inst6.IN0
+B => inst7.IN0
+S2 => inst6.IN1
+S2 => inst.IN0
+S2 => inst7.IN2
+M => inst3.IN0
+M => inst9.IN0
+
+
+|Lab10|ALU:inst1|AE:inst8
+P <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+B => inst3.IN0
+B => inst6.IN0
+S3 => inst5.IN0
+M => inst3.IN2
+M => inst.IN2
+S2 => inst4.IN0
+
+
+|Lab10|ALU:inst1|Fulladd:inst
+S <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst6.IN1
+B => inst.IN1
+B => inst6.IN0
+C => inst3.IN1
+C => inst5.IN0
+CY <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab10|ALU:inst1|LE:inst5
+Q <= inst10.DB_MAX_OUTPUT_PORT_TYPE
+S3 => inst8.IN0
+S3 => inst6.IN2
+S3 => inst2.IN0
+A => inst8.IN1
+A => inst4.IN0
+A => inst7.IN1
+A => inst9.IN1
+B => inst6.IN0
+B => inst7.IN0
+S2 => inst6.IN1
+S2 => inst.IN0
+S2 => inst7.IN2
+M => inst3.IN0
+M => inst9.IN0
+
+
+|Lab10|ALU:inst1|AE:inst6
+P <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+B => inst3.IN0
+B => inst6.IN0
+S3 => inst5.IN0
+M => inst3.IN2
+M => inst.IN2
+S2 => inst4.IN0
+
+
+|Lab10|Selector:inst
+Y[0] <= Bit2Sel:inst3.Y
+Y[1] <= Bit2Sel:inst2.Y
+Y[2] <= Bit2Sel:inst1.Y
+Y[3] <= Bit2Sel:inst.Y
+Input[0] => Bit2Sel:inst3.D1
+Input[1] => Bit2Sel:inst2.D1
+Input[2] => Bit2Sel:inst1.D1
+Input[3] => Bit2Sel:inst.D1
+S => Bit2Sel:inst3.S
+S => Bit2Sel:inst2.S
+S => Bit2Sel:inst1.S
+S => Bit2Sel:inst.S
+
+
+|Lab10|Selector:inst|Bit2Sel:inst3
+Y <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst3.IN0
+D1 => inst.IN1
+D0 => inst2.IN1
+
+
+|Lab10|Selector:inst|Bit2Sel:inst2
+Y <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst3.IN0
+D1 => inst.IN1
+D0 => inst2.IN1
+
+
+|Lab10|Selector:inst|Bit2Sel:inst1
+Y <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst3.IN0
+D1 => inst.IN1
+D0 => inst2.IN1
+
+
+|Lab10|Selector:inst|Bit2Sel:inst
+Y <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+S => inst.IN0
+S => inst3.IN0
+D1 => inst.IN1
+D0 => inst2.IN1
+
+
+|Lab10|Accumulator:inst3
+Y[0] <= inst8.DB_MAX_OUTPUT_PORT_TYPE
+Y[1] <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+Y[2] <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+Y[3] <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+Clk => inst8.CLK
+Clk => inst7.CLK
+Clk => inst6.CLK
+Clk => inst5.CLK
+IR => Bit4Sel:inst3.D2
+I[0] => Bit4Sel:inst3.D1
+I[1] => Bit4Sel:inst2.D1
+I[2] => Bit4Sel:inst1.D1
+I[3] => Bit4Sel:inst.D1
+S1 => Bit4Sel:inst3.S1
+S1 => Bit4Sel:inst2.S1
+S1 => Bit4Sel:inst1.S1
+S1 => Bit4Sel:inst.S1
+S0 => Bit4Sel:inst3.S0
+S0 => Bit4Sel:inst2.S0
+S0 => Bit4Sel:inst1.S0
+S0 => Bit4Sel:inst.S0
+IL => Bit4Sel:inst.D3
+
+
+|Lab10|Accumulator:inst3|Bit4Sel:inst3
+Y <= inst8.DB_MAX_OUTPUT_PORT_TYPE
+S0 => inst.IN0
+S0 => inst4.IN0
+S0 => inst6.IN0
+S1 => inst2.IN0
+S1 => inst5.IN1
+S1 => inst4.IN1
+D0 => inst7.IN2
+D2 => inst5.IN2
+D3 => inst4.IN2
+D1 => inst6.IN2
+
+
+|Lab10|Accumulator:inst3|Bit4Sel:inst2
+Y <= inst8.DB_MAX_OUTPUT_PORT_TYPE
+S0 => inst.IN0
+S0 => inst4.IN0
+S0 => inst6.IN0
+S1 => inst2.IN0
+S1 => inst5.IN1
+S1 => inst4.IN1
+D0 => inst7.IN2
+D2 => inst5.IN2
+D3 => inst4.IN2
+D1 => inst6.IN2
+
+
+|Lab10|Accumulator:inst3|Bit4Sel:inst1
+Y <= inst8.DB_MAX_OUTPUT_PORT_TYPE
+S0 => inst.IN0
+S0 => inst4.IN0
+S0 => inst6.IN0
+S1 => inst2.IN0
+S1 => inst5.IN1
+S1 => inst4.IN1
+D0 => inst7.IN2
+D2 => inst5.IN2
+D3 => inst4.IN2
+D1 => inst6.IN2
+
+
+|Lab10|Accumulator:inst3|Bit4Sel:inst
+Y <= inst8.DB_MAX_OUTPUT_PORT_TYPE
+S0 => inst.IN0
+S0 => inst4.IN0
+S0 => inst6.IN0
+S1 => inst2.IN0
+S1 => inst5.IN1
+S1 => inst4.IN1
+D0 => inst7.IN2
+D2 => inst5.IN2
+D3 => inst4.IN2
+D1 => inst6.IN2
+
+

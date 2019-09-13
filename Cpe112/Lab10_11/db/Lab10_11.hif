@@ -1,0 +1,286 @@
+Quartus II
+Version 10.1 Build 153 11/29/2010 SJ Full Version
+14
+1046
+OFF
+OFF
+OFF
+ON
+ON
+ON
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+1_bit_selector
+# storage
+db|Lab10_11.(0).cnf
+db|Lab10_11.(0).cnf
+# case_insensitive
+# source_file
+1_bit_selector.bdf
+cbea2ee2cb5cebe4de326a359dfcd6a2
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# macro_sequence
+
+# end
+# entity
+4_bit_selector
+# storage
+db|Lab10_11.(1).cnf
+db|Lab10_11.(1).cnf
+# case_insensitive
+# source_file
+4_bit_selector.bdf
+42eb6698c88bd8f51f5819c0b4ac9d9
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# macro_sequence
+
+# end
+# entity
+ALU
+# storage
+db|Lab10_11.(2).cnf
+db|Lab10_11.(2).cnf
+# case_insensitive
+# source_file
+alu.bdf
+aba2951ffe4de4046afbea91a876d38
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# macro_sequence
+
+# end
+# entity
+AE
+# storage
+db|Lab10_11.(3).cnf
+db|Lab10_11.(3).cnf
+# case_insensitive
+# source_file
+ae.bdf
+aba2951ffe4de4046afbea91a876d38
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# macro_sequence
+
+# end
+# entity
+Selector
+# storage
+db|Lab10_11.(4).cnf
+db|Lab10_11.(4).cnf
+# case_insensitive
+# source_file
+|cpe112|lab10-11-solns|selector.bdf
+1ebe957ae9211f1ee1fc8262379b63
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+Selector:inst
+}
+# macro_sequence
+
+# end
+# entity
+Bit2Sel
+# storage
+db|Lab10_11.(5).cnf
+db|Lab10_11.(5).cnf
+# case_insensitive
+# source_file
+|cpe112|lab10-11-solns|bit2sel.bdf
+8ad9fe524f6027ce136859a85057e94c
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+Selector:inst|Bit2Sel:inst3
+Selector:inst|Bit2Sel:inst2
+Selector:inst|Bit2Sel:inst1
+Selector:inst|Bit2Sel:inst
+}
+# macro_sequence
+
+# end
+# entity
+LE
+# storage
+db|Lab10_11.(6).cnf
+db|Lab10_11.(6).cnf
+# case_insensitive
+# source_file
+|cpe112|lab10-11-solns|le.bdf
+93a7558c52ac7333fe4cc28f34f40e4
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+ALU:inst1|LE:inst13
+ALU:inst1|LE:inst10
+ALU:inst1|LE:inst7
+ALU:inst1|LE:inst5
+}
+# macro_sequence
+
+# end
+# entity
+Lab10
+# storage
+db|Lab10_11.(7).cnf
+db|Lab10_11.(7).cnf
+# case_insensitive
+# source_file
+|cpe112|lab10-11-solns|lab10.bdf
+a526ff7bf285ec2404e91ab729c3a7
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# entity
+ALU
+# storage
+db|Lab10_11.(8).cnf
+db|Lab10_11.(8).cnf
+# case_insensitive
+# source_file
+|cpe112|lab10-11-solns|alu.bdf
+67b858807241cdee814ca2be5513255f
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+ALU:inst1
+}
+# macro_sequence
+
+# end
+# entity
+Fulladd
+# storage
+db|Lab10_11.(9).cnf
+db|Lab10_11.(9).cnf
+# case_insensitive
+# source_file
+|cpe112|lab10-11-solns|fulladd.bdf
+e943bbf71bc2ec489ae268194694c287
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+ALU:inst1|Fulladd:inst15
+ALU:inst1|Fulladd:inst12
+ALU:inst1|Fulladd:inst9
+ALU:inst1|Fulladd:inst
+}
+# macro_sequence
+
+# end
+# entity
+AE
+# storage
+db|Lab10_11.(10).cnf
+db|Lab10_11.(10).cnf
+# case_insensitive
+# source_file
+|cpe112|lab10-11-solns|ae.bdf
+d03b4dc3f410883c7e8446beca21bd7
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+ALU:inst1|AE:inst14
+ALU:inst1|AE:inst11
+ALU:inst1|AE:inst8
+ALU:inst1|AE:inst6
+}
+# macro_sequence
+
+# end
+# entity
+Accumulator
+# storage
+db|Lab10_11.(11).cnf
+db|Lab10_11.(11).cnf
+# case_insensitive
+# source_file
+|cpe112|lab10-11-solns|accumulator.bdf
+22ec5d3b6e1919a5f36840e189cfb946
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+Accumulator:inst3
+}
+# macro_sequence
+
+# end
+# entity
+Bit4Sel
+# storage
+db|Lab10_11.(12).cnf
+db|Lab10_11.(12).cnf
+# case_insensitive
+# source_file
+|cpe112|lab10-11-solns|bit4sel.bdf
+2ea21cbefd7c3068ddf045e9532e29
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+Accumulator:inst3|Bit4Sel:inst3
+Accumulator:inst3|Bit4Sel:inst2
+Accumulator:inst3|Bit4Sel:inst1
+Accumulator:inst3|Bit4Sel:inst
+}
+# macro_sequence
+
+# end
+# complete
+

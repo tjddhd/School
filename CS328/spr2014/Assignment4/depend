@@ -1,0 +1,2 @@
+driver.o: driver.cpp chebyshev.h chebyshev.hpp compare.h eval_poly.h \
+ eval_poly.hpp generator.h generator.hpp int_poly.h int_poly.hpp

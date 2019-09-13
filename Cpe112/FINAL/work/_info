@@ -1,0 +1,57 @@
+m255
+K3
+13
+cModel Technology
+dC:\altera\10.1
+Ebigpart
+Z0 w1323287638
+Z1 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+Z2 dS:\Cpe112\FINAL
+Z3 8S:/Cpe112/FINAL/BigPart.vhd
+Z4 FS:/Cpe112/FINAL/BigPart.vhd
+l0
+L24
+V]8?BR25FFTaLDgj>96?4@2
+!s100 6BRbaY5O98;n>kd<<FSLZ3
+Z5 OV;C;6.6c;45
+32
+Z6 o-work work -2002 -explicit -O0
+Z7 tExplicit 1
+Abdf_type
+R1
+DEx4 work 7 bigpart 0 22 ]8?BR25FFTaLDgj>96?4@2
+l48
+L35
+VRB0]5<T6CgzT9he[5YC>61
+!s100 0TLd`CkLBdIHEA<JecLAi0
+R5
+32
+Z8 Mx1 4 ieee 14 std_logic_1164
+R6
+R7
+Eyourpart
+Z9 w1323287650
+R1
+R2
+Z10 8S:/Cpe112/FINAL/YourPart.vhd
+Z11 FS:/Cpe112/FINAL/YourPart.vhd
+l0
+L24
+VVV7PhFioUWI8;4FPO^MRJ0
+R5
+32
+R6
+R7
+!s100 Kh4X8[l6onX1NS@>]6cJ`3
+Abdf_type
+R1
+DEx4 work 8 yourpart 0 22 VV7PhFioUWI8;4FPO^MRJ0
+l42
+L35
+VT@nAZA0`749@83oNeURfS2
+R5
+32
+R8
+R6
+R7
+!s100 o[5O`Xa:^CgL7P2E_K?0[0

@@ -1,0 +1,5 @@
+banded.o: banded.cpp
+diagonal.o: diagonal.cpp
+driver.o: driver.cpp matrix.h banded.h diagonal.h symmetric.h
+matrix.o: matrix.cpp matrix.h
+symmetric.o: symmetric.cpp

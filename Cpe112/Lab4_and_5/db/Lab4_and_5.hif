@@ -1,0 +1,43 @@
+Quartus II
+Version 10.1 Build 153 11/29/2010 SJ Full Version
+14
+1046
+OFF
+OFF
+OFF
+ON
+ON
+ON
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+Lab4_and_5
+# storage
+db|Lab4_and_5.(0).cnf
+db|Lab4_and_5.(0).cnf
+# case_insensitive
+# source_file
+lab4_and_5.bdf
+2b1014cfbae5834aba9b156b8d5d98cd
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# complete
+
